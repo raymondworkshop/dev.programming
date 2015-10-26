@@ -1,6 +1,6 @@
 dev.sicp
 ========
-The project is the implementation of Structure and Interpretation of Computer Programs;
+The project is the learning of SICP;
 
 See the details:
    [fall2015-CS 61A] (http://cs61a.org/)
