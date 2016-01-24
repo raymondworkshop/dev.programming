@@ -10,5 +10,5 @@ The project is the learning of SICP
    [sp12](http://inst.eecs.berkeley.edu/~cs61a/sp12/index.html)  
    [CS61AS](https://edge.edx.org/courses/UCBerkeleyX/CS61AS/2014_Spring/courseware/59af4a08fc674596ac07d8a1f06ab667/)  
    
-* Reference
- - [CS164, Spring 2015: Course Information] (http://www-inst.eecs.berkeley.edu/~cs164/sp15/)
+* Reference  
+   [CS164, Spring 2015: Course Information] (http://www-inst.eecs.berkeley.edu/~cs164/sp15/)
