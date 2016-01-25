@@ -1,6 +1,6 @@
-dev.programminglanguage
+###dev.programminglanguage
 ========
-The project is the learning of SICP
+The project focus on the design of the programming language
 
 * SICP courses:  
    [fall2015-CS 61A] (http://cs61a.org/)  
