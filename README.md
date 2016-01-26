@@ -6,7 +6,8 @@ The project focuses on the principle, idea and design of the programming languag
    - [sp2016-CS 61AS](http://www.cs61as.org/index.html)  
    - [CMU-Sp2016 -15-312 Principles of Programming Languages] (http://www.cs.cmu.edu/~rwh/courses/ppl/schedule.html)
 
-
+* notes about reading lua source code
+   - [Lua 5.3] (http://cloudwu.github.io/lua53doc/)
 
 * SICP courses:  
    [fall2015-CS 61A] (http://cs61a.org/)  
