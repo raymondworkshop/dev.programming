@@ -3,7 +3,8 @@
 The project focuses on the principle, idea and design of the programming language
 
 * Learning
-   - [sp2016-CS 61AS](http://www.cs61as.org/index.html)  
+   - [sp2016-CS 61AS](http://www.cs61as.org/index.html) 
+   - [How to Design Programs] (http://www.ccs.neu.edu/home/matthias/HtDP2e/)
    - [CMU-Sp2016 -15-312 Principles of Programming Languages] (http://www.cs.cmu.edu/~rwh/courses/ppl/schedule.html)
 
 * notes about reading lua source code
