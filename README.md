@@ -26,3 +26,4 @@ The project focuses on the principle, idea and design of the programming languag
 * Reference  
   - [CS164, Spring 2015: Course Information] (http://www-inst.eecs.berkeley.edu/~cs164/sp15/)
   - [Prof. Robert Harper] (http://www.cs.cmu.edu/~rwh/)
+  - [Introduction to Celery] (http://docs.celeryproject.org/en/master/internals/guide.html)
