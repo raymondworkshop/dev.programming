@@ -11,6 +11,15 @@
 
 (define sentence se)
 
+; return the 1 first char
+(define (ch-first str)
+  (substring str 0 1))
+
+; return the remaining 
+(define (ch-bf str)
+  (substring str 1 (string-length str)))
+
+
 ; define procedure member?
 (define (member? x lst)
   (if (null? lst)
@@ -18,3 +27,7 @@
       (if (equal? x (first lst))
           #t
           (member? x (rest lst)))))
+
+;
+
+(provide (all-defined-out))

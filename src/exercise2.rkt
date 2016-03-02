@@ -15,3 +15,7 @@
     [(divisible? num 3) 'fizz]
     [(divisible? num 5) 'buzz]
     [else num] ))
+
+
+(define (teen? num)
+  (and (> num 13) (< num 19)))
