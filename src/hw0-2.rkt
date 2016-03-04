@@ -55,3 +55,24 @@
       (se (list (number->string tm) "am"))))
 
 ; ex7
+(define (describe-time num)
+  (cond
+    ((<= num 60) (se (list (number->string num) "seconds")))
+    ((minute? num)  (se (list (number->string (/ num 60.0)) "minutes")))
+    ((hour? num) (se (list (number->string (/ num 3600.0)) "hours")))
+    ((day? num) (se (list (number->string (/ num (* 24 60 60.0))) "days")))
+    (else (print "Not yet implemented"))
+    ))
+
+(define (minute? num)
+  (and (> num 60) (<= num (* 60 60))))
+
+(define (hour? num)
+  (and (> num (* 60 60)) (<= num (* 24 60 60))))
+
+(define (day? num) ; assume 365.25 days in a year
+  (and (> num (* 24 60 60)) (<= num (* 365.25 24 60 60))))
+
+;ex8
+(define (superlative adjective wd)
+  (se (list (word adjective "est") wd)))
