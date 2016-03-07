@@ -12,11 +12,11 @@
 (define sentence se)
 
 ; return the 1 first char
-(define (word-first str)
+(define (ch-first str)
   (substring str 0 1))
 
 ; return the remaining 
-(define (word-bf str)
+(define (ch-bf str)
   (substring str 1 (string-length str)))
 
 
