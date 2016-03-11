@@ -32,18 +32,19 @@
   (member? letter '("a" "e" "i" "o" "u")))
 
 ; Count-ums
-(define (count-ums-v1 lst)
-  (cond ((empty? lst) 0)
-        ((first-ums? lst) (+ 1 (count-ums  (rest lst))));
-        (else (count-ums (rest lst)))))
-
 (define (count-ums lst)
-  (if (empty? lst)
-      0
-      (if (first-ums? lst) ; the first word of the list is "um"
-          (+ 1 (count-ums (rest lst)))
-          (count-ums (rest lst)))
-      ))
+  (cond ((empty? lst) 0)
+        ((um? lst)
+          (+ 1 (count-ums (rest lst))))
+        (else
+          (count-ums (rest lst)))))
 
-(define (first-ums? lst)
+(define (um? lst)
   (equal?  (first lst) "um"))
+
+
+; countdown
+(define (countdown num)
+  (if (= num 0)
+      "blastoff!"
+      (se (list (number->string num) (countdown (- num 1))))))
