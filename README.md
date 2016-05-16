@@ -1,6 +1,6 @@
 ###dev.programminglanguage
 ========
-The project focuses on the principle, idea and design of the programming language
+The project mainly focuses on the principle, idea and design of the programming language
 
 * Learning
    - [sp2016-CS 61AS](http://www.cs61as.org/index.html) 
