@@ -9,6 +9,7 @@ The project mainly focuses on the principle, idea and design of the programming 
    - [Design of Computer Programs] (https://www.udacity.com/wiki/cs212#!#additional-reading)
 
 * notes about reading lua source code
+   - [Prof. Daniel P. Friedman](http://www.cs.indiana.edu/~dfried/)
    - [Lua 5.3] (http://cloudwu.github.io/lua53doc/)
 
 * SICP courses:  
