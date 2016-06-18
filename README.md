@@ -12,6 +12,10 @@ The project mainly focuses on the principle, idea and design of the programming 
    - [Prof. Daniel P. Friedman](http://www.cs.indiana.edu/~dfried/)
    - [Lua 5.3] (http://cloudwu.github.io/lua53doc/)
 
+* Scala
+   - [Functional Programming Principles in Scala](https://www.coursera.org/learn/progfun1/home/welcome)
+   - [Principles of Reactive Programming](https://www.coursera.org/course/reactive)
+
 * SICP courses:  
    [sp2016-CS 61A] (http://cs61a.org/)
    [fall2015-CS 61A] (http://cs61a.org/)  
