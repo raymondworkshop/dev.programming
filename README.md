@@ -4,6 +4,9 @@ The project mainly focuses on the principle, idea and design of the programming 
 
 * Learning
    - [sp2016-CS 61AS](http://www.cs61as.org/index.html) 
+   - [CS 61A: The Structure and Interpretation of Computer Programs](http://cs61a.org/)
+   - [CS 61B] (http://datastructur.es/sp16/about.html)
+   - [CS 61C] (http://www-inst.eecs.berkeley.edu/~cs61c/sp16/policies.php)
    - [How to Design Programs] (http://www.ccs.neu.edu/home/matthias/HtDP2e/)
    - [CMU-Sp2016 -15-312 Principles of Programming Languages] (http://www.cs.cmu.edu/~rwh/courses/ppl/schedule.html)
    - [Design of Computer Programs] (https://www.udacity.com/wiki/cs212#!#additional-reading)
@@ -11,6 +14,10 @@ The project mainly focuses on the principle, idea and design of the programming 
 * notes about reading lua source code
    - [Prof. Daniel P. Friedman](http://www.cs.indiana.edu/~dfried/)
    - [Lua 5.3] (http://cloudwu.github.io/lua53doc/)
+
+* Scala
+   - [Functional Programming Principles in Scala](https://www.coursera.org/learn/progfun1/home/welcome)
+   - [Principles of Reactive Programming](https://www.coursera.org/course/reactive)
 
 * SICP courses:  
    [sp2016-CS 61A] (http://cs61a.org/)
