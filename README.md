@@ -7,7 +7,6 @@ The project mainly focuses on the principle, idea and design of the programming 
    - [CS 61A: The Structure and Interpretation of Computer Programs](http://cs61a.org/)
    - [CS 61B] (http://datastructur.es/sp16/about.html)
    - [CS 61C] (http://www-inst.eecs.berkeley.edu/~cs61c/sp16/policies.php)
-   - 
    - [How to Design Programs] (http://www.ccs.neu.edu/home/matthias/HtDP2e/)
    - [CMU-Sp2016 -15-312 Principles of Programming Languages] (http://www.cs.cmu.edu/~rwh/courses/ppl/schedule.html)
    - [Design of Computer Programs] (https://www.udacity.com/wiki/cs212#!#additional-reading)
