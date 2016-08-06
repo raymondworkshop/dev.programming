@@ -3,10 +3,6 @@
 The project mainly focuses on the principle, idea and design of the programming language
 
 * Learning
-   - [sp2016-CS 61AS](http://www.cs61as.org/index.html) 
-   - [CS 61A: The Structure and Interpretation of Computer Programs](http://cs61a.org/)
-   - [CS 61B] (http://datastructur.es/sp16/about.html)
-   - [CS 61C] (http://www-inst.eecs.berkeley.edu/~cs61c/sp16/policies.php)
    - [How to Design Programs] (http://www.ccs.neu.edu/home/matthias/HtDP2e/)
    - [CMU-Sp2016 -15-312 Principles of Programming Languages] (http://www.cs.cmu.edu/~rwh/courses/ppl/schedule.html)
    - [Design of Computer Programs] (https://www.udacity.com/wiki/cs212#!#additional-reading)
@@ -17,13 +13,7 @@ The project mainly focuses on the principle, idea and design of the programming 
 
 * Scala
    - [Functional Programming Principles in Scala](https://www.coursera.org/learn/progfun1/home/welcome)
-   - [Principles of Reactive Programming](https://www.coursera.org/course/reactive)
-
-* SICP courses:  
-   [sp2016-CS 61A] (http://cs61a.org/)
-   [fall2015-CS 61A] (http://cs61a.org/)  
-   [edx- CS 61AS](https://edge.edx.org/courses/course-v1:UCBerkeley+CS61AS+Spring_2015/courseware/59af4a08fc674596ac07d8a1f06ab667/)  
-   [fa13](http://www-inst.eecs.berkeley.edu/~cs61a/fa13/)  
+   - [Principles of Reactive Programming](https://www.coursera.org/course/reactive) 
    
 * programming language
   - [CMU-Sp2014-15-312 Principles of Programming Languages] (https://www.cs.cmu.edu/~rjsimmon/15312-s14/schedule.html)
