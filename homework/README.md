@@ -1,5 +1,5 @@
 #### homework
-   - [CS 61A](https://inst.eecs.berkeley.edu/~cs61a/sp16/)
+   - [CS 61A](http://cs61a.org/)
    - [CS 61A: The Structure and Interpretation of Computer Programs](http://cs61a.org/)
    - [CS 61B] (http://datastructur.es/sp16/about.html)
    - [CS 61C] (http://www-inst.eecs.berkeley.edu/~cs61c/sp16/policies.php)   
