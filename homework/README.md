@@ -1,5 +1,6 @@
 #### homework
    - [CS 61A](http://cs61a.org/)
+   - [Paradigms of Computer](https://courses.edx.org/courses/course-v1:LouvainX+Louv1.1x+3T2016/info)
    - [CS 61A: The Structure and Interpretation of Computer Programs](http://cs61a.org/)
    - [CS 61B] (http://datastructur.es/sp16/about.html)
    - [CS 61C] (http://www-inst.eecs.berkeley.edu/~cs61c/sp16/policies.php)   
