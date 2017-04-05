@@ -7,19 +7,11 @@ The project mainly focuses on the principle, idea and design of the programming 
    - [Programming Languages, Part A](https://www.coursera.org/learn/programming-languages)
    - [Design of Computer Programs] (https://www.udacity.com/wiki/cs212#!#additional-reading)
 
-* notes about reading lua source code
-   - [Prof. Daniel P. Friedman](http://www.cs.indiana.edu/~dfried/)
-   - <del> [Lua 5.3] (http://cloudwu.github.io/lua53doc/) </del>
-
-*  programming language
-   - <del> [Functional Programming Principles in Scala](https://www.coursera.org/learn/progfun1/home/welcome)</del> 
-   - <del> [Principles of Reactive Programming](https://www.coursera.org/course/reactive) </del>
-  - <del>[CMU-Sp2014-15-312 Principles of Programming Languages] (https://www.cs.cmu.edu/~rjsimmon/15312-s14/schedule.html) </del>
-  - <del>[CMU-Sp2016-15-312 Principles of Programming Languages] (http://www.cs.cmu.edu/~rwh/courses/ppl/schedule.html) </del>
-  - <del>[CMU-sp2016-15-150: Functional Programming, Spring 2016] (http://www.cs.cmu.edu/~15150/assign.html) </del>
-
-
 * Reference  
   - [CS164, Spring 2015: Course Information] (http://www-inst.eecs.berkeley.edu/~cs164/sp15/)
+  - [Prof. Daniel P. Friedman](http://www.cs.indiana.edu/~dfried/)
   - [Prof. Robert Harper] (http://www.cs.cmu.edu/~rwh/)
+  - [CMU-sp2016-15-150: Functional Programming, Spring 2016] (http://www.cs.cmu.edu/~15150/assign.html)
+  - [CMU-Sp2016-15-312 Principles of Programming Languages] (http://www.cs.cmu.edu/~rwh/courses/ppl/schedule.html)
   - [Introduction to Celery] (http://docs.celeryproject.org/en/master/internals/guide.html)
+  - [Lua 5.3] (http://cloudwu.github.io/lua53doc/)
