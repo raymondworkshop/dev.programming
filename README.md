@@ -5,21 +5,18 @@ The project mainly focuses on the principle, idea and design of the programming 
 * Learning
    - [How to Design Programs] (http://www.ccs.neu.edu/home/matthias/HtDP2e/)
    - [Programming Languages, Part A](https://www.coursera.org/learn/programming-languages)
-   - [CMU-Sp2016 -15-312 Principles of Programming Languages] (http://www.cs.cmu.edu/~rwh/courses/ppl/schedule.html)
    - [Design of Computer Programs] (https://www.udacity.com/wiki/cs212#!#additional-reading)
 
 * notes about reading lua source code
    - [Prof. Daniel P. Friedman](http://www.cs.indiana.edu/~dfried/)
-   - [Lua 5.3] (http://cloudwu.github.io/lua53doc/)
+   - <del> [Lua 5.3] (http://cloudwu.github.io/lua53doc/) </del>
 
-* Scala
-   - [Functional Programming Principles in Scala](https://www.coursera.org/learn/progfun1/home/welcome)
-   - [Principles of Reactive Programming](https://www.coursera.org/course/reactive) 
-   
-* programming language
-  - [CMU-Sp2014-15-312 Principles of Programming Languages] (https://www.cs.cmu.edu/~rjsimmon/15312-s14/schedule.html)
-  - [CMU-Sp2016-15-312 Principles of Programming Languages] (http://www.cs.cmu.edu/~rwh/courses/ppl/schedule.html)
-  - [CMU-sp2016-15-150: Functional Programming, Spring 2016] (http://www.cs.cmu.edu/~15150/assign.html)
+*  programming language
+   - <del> [Functional Programming Principles in Scala](https://www.coursera.org/learn/progfun1/home/welcome)</del> 
+   - <del> [Principles of Reactive Programming](https://www.coursera.org/course/reactive) </del>
+  - <del>[CMU-Sp2014-15-312 Principles of Programming Languages] (https://www.cs.cmu.edu/~rjsimmon/15312-s14/schedule.html) </del>
+  - <del>[CMU-Sp2016-15-312 Principles of Programming Languages] (http://www.cs.cmu.edu/~rwh/courses/ppl/schedule.html) </del>
+  - <del>[CMU-sp2016-15-150: Functional Programming, Spring 2016] (http://www.cs.cmu.edu/~15150/assign.html) </del>
 
 
 * Reference  
