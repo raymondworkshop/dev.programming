@@ -8,6 +8,7 @@ The project mainly focuses on the principle, idea and design of the programming 
    - [Design of Computer Programs] (https://www.udacity.com/wiki/cs212#!#additional-reading)
 
 * Reference  
+  - [CS 61A](http://cs61a.org/articles/about.html)
   - [CS164, Spring 2015: Course Information] (http://www-inst.eecs.berkeley.edu/~cs164/sp15/)
   - [Prof. Daniel P. Friedman](http://www.cs.indiana.edu/~dfried/)
   - [Prof. Robert Harper] (http://www.cs.cmu.edu/~rwh/)
