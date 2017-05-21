@@ -1,5 +1,6 @@
 #### homework
    - [CS 61A](http://cs61a.org/)
+   - [Computer Science 510	Programming Languages](http://www.cs.princeton.edu/courses/archive/spring17/cos510/schedule.php)
    - [Paradigms of Computer](https://courses.edx.org/courses/course-v1:LouvainX+Louv1.1x+3T2016/info)
    - [CS 61A: The Structure and Interpretation of Computer Programs](http://cs61a.org/)
    - [CS 61B] (http://datastructur.es/sp16/about.html)
