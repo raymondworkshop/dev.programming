@@ -1,5 +1,21 @@
-#### note
-#### 
+### Python
+#### Python Data Model - special methods
+Python interpreter invokes special methods to perform basic object operations
+
+#### Data Sturctures
+  - sequences
+  - mappings
+  - sets
+  - str versus bytes
+  
+#### Functions as objects
+
+#### Object Oriented
+
+#### Control flow
+
+
+#### Metaprogramming 
 
 
 #### virtualenvs setup for python3
