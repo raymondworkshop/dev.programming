@@ -1,6 +1,9 @@
 ### Python
-#### Python Data Model - special methods
-Python interpreter invokes special methods to perform basic object operations
+#### Python Data Model - A Framework/API for core language constructs
+
+Python interpreter invokes special methods to perform basic object operations.
+
+By using and implementing special methods of Python Data Model in your objects, your objects can **behave like the built-in types**, enabling the expressive coding style **Pythonic**.
 
 #### Data Sturctures
   - sequences
