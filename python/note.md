@@ -6,10 +6,14 @@ Python interpreter invokes special methods to perform basic object operations.
 By using and implementing special methods of Python Data Model in your objects, your objects can **behave like the built-in types**, enabling the expressive coding style **Pythonic**.
 
 #### Data Sturctures
-  - sequences
-  - mappings
-  - sets
-  - str versus bytes
+  * sequences
+  Python sequences are often categorized as **mutalbe or immutable**, and also could be considered as **flat sequences and container sequences**. 
+    - list -> mutable and mixed-type
+    - array
+  
+  * mappings
+  * sets
+  * str versus bytes
   
 #### Functions as objects
 
