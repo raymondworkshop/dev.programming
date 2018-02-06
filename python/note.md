@@ -25,7 +25,20 @@ By using and implementing special methods of Python Data Model in your objects, 
 #### Metaprogramming 
 
 
-#### virtualenvs setup for python3
-Your environment contains PYTHONPATH=/usr/local/lib/python2.7/site-packages
+#### Notes
+ * Reload modules problem in Emacs Python Shell
+   - use importlib to reload(models) 
+   - or use ipython and  %autoreload
+
+ * virtualenvs setup for python3 -> pipenv
+   - New a project: >pipenv --python 3.6
+   - Install all dependencies:  >pipenv install
+   - Locate the virtualenv: >pipenv --venv
+   - Use the shell: >pipenv shell
+   - Uninstall everything:  >pipenv uninstall --all
+
+ * <del>Your environment contains PYTHONPATH=/usr/local/lib/python2.7/site-packages
 This doesn't work with Python 3 for obvious reasons. To remove it:
-> unset PYTHONPATH
+> unset PYTHONPATH </del>
+
+  * 

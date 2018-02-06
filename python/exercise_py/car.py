@@ -33,13 +33,23 @@ class Car():
         """"""
         print("This card need a gas tank!")
 
+
+#note: we could use a separate class to make an instance as an attribute in some class
 class Battery():
     """model a battery for an electric car"""
     def __init__(self, battery_size=70):
         self.battery_size = battery_size
 
+
     def describe_battery(self):
-        print("This car has a " + str(self.battery_size) + "-kWh battery.")
+        print("This car has a " + str(self.battery_size) + " -kWh battery.")
+
+
+    def upgrade_battery(self):
+        #import pdb; pdb.set_trace()
+        if self.battery_size < 85:
+            self.battery_size = 85
+
 
     def get_range(self):
         """print the range this battery provides"""
@@ -52,19 +62,33 @@ class Battery():
         message += " miles on a full charge."
         print(message)
 
-
+#note: use inheritance here
 class ElectricCar(Car):
-    """electric vehicles"""
+    """Represent specific to electric vehicles"""
     def __init__(self, make, model, year):
+        # init attributes of the parent classlist
         super().__init__(make, model, year)
+        #note:create a new instance of Battery and store it in the attribute self.battery
         #self.battery_size = 70
-        self.battery = Battery()  #A Battery instance
+        self.battery = Battery()  # A Battery instance as attribute
 
     def describe_battery(self):
         """"""
-        print("This car has a " + str(self.battery_size) + "-kwh battry.")
+        print("This car has a " + str(self.battery_size) + " -kwh battery.")
 
-    def fill_gas_tank(self): #don't use the parent's method, os
+    """
+    def get_range(self):
+        if self.battery.battery_size == 70:
+            range = 240 + 30
+        elif self.battery.battery_size == 85:
+            range = 270 + 30
+        message = "This car can go " + str(range)
+        message += " miles on a full charge."
+        print(message)
+    """
+
+    # overriding methods from the parent class
+    def fill_gas_tank(self): #don't use the parent's method, so
         print("This model of card doesn't need a gas tank!")
 
 
