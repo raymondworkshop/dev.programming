@@ -3,9 +3,9 @@
   - [Programming Languages, Part A](https://www.coursera.org/learn/programming-languages/home/welcome)
   - [Programming Languages, Part B](https://www.coursera.org/learn/programming-languages-part-b/home/welcome)
   - [Programming Languages, Part C](https://www.coursera.org/learn/programming-languages-part-c/home/welcome)
-
+  - []
 #### REFERENCE
-   - [CS 61A](http://cs61a.org/)
+   - [CS 61A](https://cs61a.org/articles/about.html)
    - [Computer Science 510	Programming Languages](http://www.cs.princeton.edu/courses/archive/spring17/cos510/schedule.php)
    - [Paradigms of Computer](https://courses.edx.org/courses/course-v1:LouvainX+Louv1.1x+3T2016/info)
    - [CS 61A: The Structure and Interpretation of Computer Programs](http://cs61a.org/)

@@ -74,7 +74,7 @@ class ElectricCar(Car):
 
     def describe_battery(self):
         """"""
-        print("This car has a " + str(self.battery_size) + " -kwh battery.")
+        print("This car has a " + str(self.battery.battery_size) + " -kwh battery.")
 
     """
     def get_range(self):

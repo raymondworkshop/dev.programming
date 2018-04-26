@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 """A set of classes used to represent gas and electric cars"""
 
+
 class Car():
     """represent a car"""
+
     def __init__(self, make, model, year):
         self.make = make
         self.model = model
@@ -33,8 +35,10 @@ class Car():
         """"""
         print("This card need a gas tank!")
 
+
 class Battery():
     """model a battery for an electric car"""
+
     def __init__(self, battery_size=70):
         self.battery_size = battery_size
 
@@ -55,16 +59,17 @@ class Battery():
 
 class ElectricCar(Car):
     """electric vehicles"""
+
     def __init__(self, make, model, year):
         super().__init__(make, model, year)
         #self.battery_size = 70
-        self.battery = Battery()  #A Battery instance
+        self.battery = Battery()  # A Battery instance
 
     def describe_battery(self):
         """"""
         print("This car has a " + str(self.battery_size) + "-kwh battry.")
 
-    def fill_gas_tank(self): #don't use the parent's method, os
+    def fill_gas_tank(self):  # don't use the parent's method, os
         print("This model of card doesn't need a gas tank!")
 
 
@@ -80,15 +85,19 @@ def new_car():
 def new_electric_car():
     my_tesla = ElectricCar('tesla', 'model s', 2018)
     print(my_tesla.get_descriptive_name())
-    #my_tesla.describe_battery()
+    # my_tesla.describe_battery()
 
-    my_tesla.battery.describe_battery() # work through the car's battery attribute
+    import pdb
+    pdb.set_trace()
+    my_tesla.battery.describe_battery()  # work through the car's battery attribute
     my_tesla.fill_gas_tank()
     my_tesla.battery.get_range()
+
 
 def main():
     new_car()
     new_electric_car()
+
 
 if __name__ == "__main__":
     main()

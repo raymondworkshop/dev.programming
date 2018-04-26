@@ -1,0 +1,1 @@
+/Users/zhaowenlong/workspace/myblog/_posts/2018-01-16-python-note.md
