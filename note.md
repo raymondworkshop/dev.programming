@@ -1,2 +1,1 @@
-#### Notes - forcus on the core ideas
-
+/Users/zhaowenlong/workspace/myblog/_posts/2018-01-16-programminglanguages-note.md
