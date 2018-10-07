@@ -4,6 +4,7 @@ The project mainly focuses on the principle, idea and design of the programming 
 
 
 * Reference  
+  - [cs242-Programming Languages](http://cs242.stanford.edu/f17/) 
   - [CS 61A](https://cs61a.org/)
   - [How to Design Programs](http://www.ccs.neu.edu/home/matthias/HtDP2e/)
   - [Programming Languages, Part B](https://www.coursera.org/learn/programming-languages)
