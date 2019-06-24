@@ -4,7 +4,7 @@ The project mainly focuses on the programming language
 
 
 * Reference  
-  - [cs242-Programming Languages](http://cs242.stanford.edu/f17/) 
+  - [cs242-Programming Languages](http://cs242.stanford.edu/f18/) 
   - [CS106B - Programming Abstractions](https://see.stanford.edu/Course/CS106B/143)
   - [CS 61A](https://cs61a.org/)
   - [How to Design Programs](http://www.ccs.neu.edu/home/matthias/HtDP2e/)
