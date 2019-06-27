@@ -1,6 +1,5 @@
 #### dev.programming
-========  
-The project mainly focuses on the programming language
+* The project mainly focuses on the theory and system of programming language
 
 
 * Reference  
