@@ -3,6 +3,6 @@
 * some recent progress in computer programs  
 
 #### notes  
- *  SICP 
+ *  [SICP](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_start) 
 
 
