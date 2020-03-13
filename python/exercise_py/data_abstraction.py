@@ -1,5 +1,6 @@
 """
 data abstraction pattern in python  
+-> a collection of selectors and constructors, together with some behavior conditions  
 
 the part that **operates on abstract data** and the part that **defines a concrete representations** are **connected by a small set of functions**
  that implement abstract data in terms of the concrete representation.  
@@ -45,7 +46,7 @@ def rational(n, d):
     """
     return the rational number with numerator n and denominator d
     """
-    return [n, d] # the implementation
+    return [n, d] # one kind of implementation
 
 def numer(x):
     """
