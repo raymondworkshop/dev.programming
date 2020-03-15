@@ -45,16 +45,11 @@
 
   - data abstraction  - abstraction barrier  
     +  we can express abstract data using **a collection of selectors and constructors, together with some behavior**  
-
-
-    + As long as **the behavior conditions are met** (such as the division property),**the selector and constructors constitute a valid representation** of a kind of data  
-    + 
-
-    + identify a basic set of operations, and then to use only those operations in manipulating the data
-    + by restricting the use of operations, it is easier to change the representation of abstract data without chaning the behavior of a program  
-    + 
+       - As long as **the behavior conditions are met** (such as the division property),**the selector and constructors constitute a valid representation** of a kind of data  
+       - identify a basic set of operations, and then to use only those operations in manipulating the data
+       - by restricting the use of operations, it is easier to change the representation of abstract data without chaning the behavior of a program  
     +  like in [this](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/data_abstraction.py),  function numer() and denom() as selectors, and function rational() as constructors to construct the function add_rational(), mul_rational()  
-    + 
+    
   - OOP    
     + like [this](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/oop.py)
   
