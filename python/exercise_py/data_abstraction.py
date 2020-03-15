@@ -24,17 +24,21 @@ def add_rational(x, y):
     """
     x = nx / dx, y = ny / dy
     """
-    return
+    nx, dx = numer(x), denom(x)
+    ny, dy = numer(y), denom(y)
+    return rational(nx*dy + ny*dx, dx*dy)
 
-def mul_rational():
-    return
+def mul_rational(x, y):
+    return rational(numer(x)*numer(y), denom(x)*denom(y))
+    
 
 def rationals_are_equal(x, y):
-    return
+    return numer(x) * denom(y) == numer(y) * denom(x)
+    
 
 def print_rational(x):
     print(numer(x), '/', denom(x))
-    return
+    
 
 # 2. represent rational numbers  
 # create rationals or implement rational operations  
@@ -64,4 +68,5 @@ def denom(x):
 
 if __name__ == "__main__":
     half = rational(1, 2)
-    print_rational(half)
+    third = rational(1, 3)
+    print_rational(add_rational(half, third))
