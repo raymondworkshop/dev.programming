@@ -3,7 +3,7 @@
   - [Programming Languages, Part A](https://www.coursera.org/learn/programming-languages/home/welcome)
   - [Programming Languages, Part B](https://www.coursera.org/learn/programming-languages-part-b/home/welcome)
   - [Programming Languages, Part C](https://www.coursera.org/learn/programming-languages-part-c/home/welcome)
-  - []
+  -
 #### REFERENCE
    - [CS 61A](https://cs61a.org/articles/about.html)
    - [Computer Science 510	Programming Languages](http://www.cs.princeton.edu/courses/archive/spring17/cos510/schedule.php)
