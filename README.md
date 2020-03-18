@@ -36,6 +36,7 @@
 
   - Data  
     + how data can be endowed with behavior using message passing and an object system  
+    + in the example []()
     + TODO - implemente list and Dictionary at ch2.4 
 
 #### ch2 - Object Abstraction - Organize large programs  
@@ -60,7 +61,6 @@
 
 #### reference   
 * [SICP](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_start) 
-* [rust](https://doc.rust-lang.org/book/)
 * [cs61a](https://cs61a.org/)
 * [cd61a fall2019](https://inst.eecs.berkeley.edu/~cs61a/fa19/)
 * [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/#)
