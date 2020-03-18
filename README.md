@@ -36,8 +36,7 @@
 
   - Data  
     + how data can be endowed with behavior using message passing and an object system  
-    + in the example []()
-    + TODO - implemente list and Dictionary at ch2.4 
+    + in the example [mutable_data.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/mutable_data.py), a mutable list is implemented, and the message passing fucntion is used.  
 
 #### ch2 - Object Abstraction - Organize large programs  
   - **build modular, maintainable, and extensible programs**       
@@ -52,12 +51,12 @@
     +  like in [this](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/data_abstraction.py),  function numer() and denom() as selectors, and function rational() as constructors to construct the function add_rational(), mul_rational()  
     
   - OOP    
-    + like [this](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/oop.py)
+    + like [oop.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/oop.py)
   
   - Object Abstraction  
-    + like [this](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/generic_function.py)   
+    + like [generic_function.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/generic_function.py)   
     + generic functions are methods or functions that apply to argumetns of diff  types  
-      - [this](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/generic_function_1.py)  
+      - [generic_function_1.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/generic_function_1.py)  
 
 #### reference   
 * [SICP](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_start) 
