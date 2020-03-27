@@ -30,13 +30,30 @@
   - 
 
 #### ch2 - Data Abstraction - Building Abstractions with Data  
+  - structed data  
+    + object metaphor -> value + behavior  
   - struct programs on abstract data  
   - data abstraction manipulate **compound values as units**  
     + isolate **how data are represented (as parts)** and **how data are manipulated (as units)**  
+    +  
+    + **a concrete data representation**  
+    + **the programs** that use the data  
+    + **the interface** between these two parts of system will be a set of cuntions, called **selectors and constructors**   
+      - implement the abstract data in terms of the concrete representation   
+      - like in [data_abstraction.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/data_abstraction.py),  function numer() and denom() as selectors, and function rational() as constructors to construct the function add_rational(), mul_rational()  
+
+  - Sequence abstraction  
+    + an ordered collection of data values  
+    + share certain properties like length and element selection (like index)  
+
+  - conventional interface  
+    + todo - (ch2.3.7)[https://wizardforcel.gitbooks.io/sicp-in-python/content/10.html] 
 
   - Data  
     + how data can be endowed with behavior using message passing and an object system  
     + in the example [mutable_data.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/mutable_data.py), a mutable list is implemented, and the message passing fucntion is used.  
+
+
 
 #### ch2 - Object Abstraction - Organize large programs  
   - **build modular, maintainable, and extensible programs**       
@@ -48,10 +65,10 @@
        - As long as **the behavior conditions are met** (such as the division property),**the selector and constructors constitute a valid representation** of a kind of data  
        - identify a basic set of operations, and then to use only those operations in manipulating the data
        - by restricting the use of operations, it is easier to change the representation of abstract data without chaning the behavior of a program  
-    +  like in [this](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/data_abstraction.py),  function numer() and denom() as selectors, and function rational() as constructors to construct the function add_rational(), mul_rational()  
+    +  like in [data_abstraction.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/data_abstraction.py),  function numer() and denom() as selectors, and function rational() as constructors to construct the function add_rational(), mul_rational()  
     
   - OOP    
-    + like [oop.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/oop.py)
+    + like [oop.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/oop.py)  
   
   - Object Abstraction  
     + like [generic_function.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/generic_function.py)   
@@ -59,6 +76,7 @@
       - [generic_function_1.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/generic_function_1.py)  
 
 #### reference   
+* [SICP in python](https://wizardforcel.gitbooks.io/sicp-in-python/content/8.html)  
 * [SICP](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_start) 
 * [cs61a](https://cs61a.org/)
 * [cd61a fall2019](https://inst.eecs.berkeley.edu/~cs61a/fa19/)
