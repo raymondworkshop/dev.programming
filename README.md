@@ -47,7 +47,9 @@
     + share certain properties like length and element selection (like index)  
 
   - conventional interface  
-    + todo - (ch2.3.7)[https://wizardforcel.gitbooks.io/sicp-in-python/content/10.html] 
+    + chaining together a pipeline of functions, if the functions all take a sequence as an input and output  
+      - like [sequences.py]()
+    
 
   - Data  
     + how data can be endowed with behavior using message passing and an object system  
