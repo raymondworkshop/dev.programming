@@ -47,12 +47,18 @@
     + share certain properties like length and element selection (like index)  
 
   - conventional interface  
-    + chaining together a pipeline of functions, if the functions all take a sequence as an input and output  
-      - like [sequences.py]()
+    + **chaining together a pipeline of functions**, if the functions all take a sequence as an input and output  
+      - like [sequences.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/sequences.py)  
     
 
-  - Data  
-    + how data can be endowed with behavior using message passing and an object system  
+  - mutable Data  
+    + how data can be endowed with behavior using message passing and an object system 
+    + non-local assignment give the ability to **maintain some state that is local to a function, but evolves over successive calls** to that function   
+    +  
+    + **Iterator**    
+      - process elements of a container value sequentially  
+      - **two components: next and a mechanism for signaling the end**    
+      - 
     + in the example [mutable_data.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/mutable_data.py), a mutable list is implemented, and the message passing fucntion is used.  
 
 
