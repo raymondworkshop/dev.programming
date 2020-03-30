@@ -3,6 +3,11 @@ message passing:
 **encapsulates the logic for all operations on a data value**
 within one function that responds to different messages,
 """
+
+"""
+mutable objects can change throughout the execution of a program
+
+"""
 #a linked list is **a pair** containing the first, and the rest
 #note: link is a **constructor** and first and rest are **selectors** for an abstract data representation of linked list
 def is_link(s):
@@ -126,6 +131,11 @@ def test_dictionary():
     print(f'{value}')
     d('getitem', 4)
     return
+
+
+# note3: non-local assignment is a powerful tool for creating modular pgorams  
+# diff parts of a program, which correspond to diff environment frames, can evolve separately throughout program execution
+# ch2.4
 
 
 if __name__ == "__main__":

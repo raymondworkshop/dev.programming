@@ -6,7 +6,10 @@ like, different users interact in a social network, diff characters interact in 
 When representing such system, the objects in a program often **map naturally onto objects** in the system being modeled, 
 and **classes represent their types and relationships**    
 
+"""
 
+"""
+adding state to data is an essential ingredient
 """
 
 class Account:
