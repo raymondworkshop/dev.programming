@@ -1,6 +1,7 @@
 """
 efficiency in views of time and space
 """
+#@count
 def fib(n):
     if n == 0:
         return 0
@@ -17,6 +18,18 @@ def count(f):
     return counted
 
 
+def count_frames(f):
+    def counted(*args):
+        counted.open_count +=1 # the number of calls to f that have not yet returned
+        counted.max_count = max(counted.max_count, counted.open_count)
+        result = f(*args)
+        counted.open_count -=1
+        return result
+    counted.open_count = 0
+    counted.max_count = 0
+    return counted
+
+#
 def trace(fn):
     def wrapped(x):
         print('-> ', fn, '(', x, ')')
@@ -28,9 +41,15 @@ def triple(x):
     return 3 * x
 
 if __name__ == "__main__":
-    #triple(12)
+    print("begin")
+    triple(12) # the name triple is bound to the returned function value of calling trace
+    #triple = trace(triple(12))
     #
+    fib = count(fib)
     fib(5)
+    print(f'the calling number: {fib.call_count}')
+    fib1 = count_frames(fib)
+    fib1(19)
+    print(f'the frame number: {fib1.max_count}')
     #
-    
     
