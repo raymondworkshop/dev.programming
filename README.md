@@ -9,6 +9,7 @@
   -  TODO - Implement stream class 
 
 
+#### ch3 - **language abstraction** using interpreters and macros  
 
 
 ##### ch1 - Building Abstractions with Functions  
@@ -25,11 +26,13 @@
   - Testing  
     + assert 
 
-  - higher-order functions 
-    + how **functions can be manipulated as data** using higher-order functions  
+  - **control abstraction** using recursion, higher-order functions, generators, and streams  
+    + higher-order functions 
+      - how **functions can be manipulated as data** using higher-order functions  
   - 
 
 #### ch2 - Data Abstraction - Building Abstractions with Data  
+  - **data abstraction** using interfaces, objects, classes, and generic operators  
   - structed data  
     + object metaphor -> value + behavior  
   - struct programs on abstract data  
@@ -80,12 +83,11 @@
   
   - Object Abstraction  
     + like [generic_function.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/generic_function.py)   
-    + generic functions are methods or functions that apply to argumetns of diff  types  
+    + generic functions are methods or functions that apply to argumetns of diff types  
       - [generic_function_1.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/generic_function_1.py)  
 
 #### reference   
 * [SICP in python](https://wizardforcel.gitbooks.io/sicp-in-python/content/8.html)  
-* [SICP](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_start) 
 * [cs61a](https://cs61a.org/)
 * [cd61a fall2019](https://inst.eecs.berkeley.edu/~cs61a/fa19/)
 * [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/#)
