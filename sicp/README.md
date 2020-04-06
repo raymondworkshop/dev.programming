@@ -33,4 +33,5 @@ This doesn't work with Python 3 for obvious reasons. To remove it:
 #### reference
 * [cs61a](https://cs61a.org/)
 * [cd61a fall2019](https://inst.eecs.berkeley.edu/~cs61a/fa19/)
+* [4.1. Abstract Data Types](https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/ADT.html)
 * [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/#)
