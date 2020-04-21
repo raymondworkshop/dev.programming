@@ -87,6 +87,7 @@
       - [generic_function_1.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/generic_function_1.py)  
 
 #### reference   
+* [SICP-ch2](http://sarabander.github.io/sicp/html/Chapter-2.xhtml#Chapter-2)
 * [SICP in python](https://wizardforcel.gitbooks.io/sicp-in-python/content/8.html)  
 * [cs61a](https://cs61a.org/)
 * [cd61a fall2019](https://inst.eecs.berkeley.edu/~cs61a/fa19/)
