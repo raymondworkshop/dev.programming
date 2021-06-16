@@ -1,7 +1,7 @@
 
 
 #### notes on compiler  
-* ~~scheme~~ racket  
+* scheme 
   
 * about meta-circular evaluator and compiler
 

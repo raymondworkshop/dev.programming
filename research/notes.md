@@ -11,4 +11,3 @@
 * [Programming Languages, Part B](https://www.coursera.org/learn/programming-languages)
 * [Design of Computer Programs](https://www.udacity.com/wiki/cs212#!#additional-reading)
 
-* [rust](https://doc.rust-lang.org/book/)
