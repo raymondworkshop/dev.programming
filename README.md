@@ -1,3 +1,6 @@
+
+#### Note
+
 #### About [Composing Programs](http://composingprograms.com/pages/11-getting-started.html)    
 * how computers interpret computer programs and carry out computational processes  
 * some recent progress in computer programs  
@@ -87,6 +90,8 @@
       - [generic_function_1.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/generic_function_1.py)  
 
 #### reference   
+* [Fluent Python - 2nd](https://learning-oreilly-com.easyaccess1.lib.cuhk.edu.hk/library/view/fluent-python-2nd/9781492056348/?ar=)
+* [how to design programs-2nd](https://htdp.org/2018-01-06/Book/index.html) 
 * [SICP-ch2](http://sarabander.github.io/sicp/html/Chapter-2.xhtml#Chapter-2)
 * [SICP in python](https://wizardforcel.gitbooks.io/sicp-in-python/content/8.html)  
 * [cs61a](https://cs61a.org/)
