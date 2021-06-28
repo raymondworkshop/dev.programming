@@ -26,7 +26,11 @@ experimentation, and self-vealuation
 ### notes on compiler  
 * scheme 
   
-* about meta-circular evaluator and compiler
+* about meta-circular evaluator and compiler 
+
+
+#### experiment  
+* fix the image error
 
 #### reference
 * [how to design programs-2nd](https://htdp.org/2018-01-06/Book/index.html) 
