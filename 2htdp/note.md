@@ -1,6 +1,8 @@
 
 ### note on how to design programs 
 
+#### Data  
+* combine data and the related operations  
 
 #### systematic program design  
 * **design recipe**  
@@ -30,7 +32,7 @@ experimentation, and self-vealuation
 
 
 #### experiment  
-* fix the image error
+* fix the issue - cannot display the image to use 2htdp/image directly 
 
 #### reference
 * [how to design programs-2nd](https://htdp.org/2018-01-06/Book/index.html) 

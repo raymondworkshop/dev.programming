@@ -10,3 +10,10 @@
 ;(require racket/gui/base)
 
 (show-pict (circle 10 "solid" "red"))
+
+(show-pict (overlay (circle 5 "solid" "red")
+                    (rectangle 20 20 "solid" "blue")))
+
+(show-pict (place-image (circle 5 "solid" "green")
+                        50 80
+                        (empty-scene 100 100)))
