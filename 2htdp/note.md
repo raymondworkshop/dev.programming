@@ -2,10 +2,24 @@
 ### note on how to design programs 
 
 #### Data  
-* combine data and the related operations  
+* design functions  
+    - information (domain)  <=>  Data  (program)  <=> information (domain)
+
+    - data definitions  
+        + how to represent input information as data  
+
+    - domain knowledge  
+        + work with domain experts 
+        + library functions  
 
 #### systematic program design  
-* **design recipe**  
+* problem analysis 
+    - **what is relevant in the problem statement** and what can be ignored 
+    - whether the chosen language and its libraries **provide certain operations** for the data, or we might develop auxiliary functions for the operations
+
+
+* **design recipe**  offers a step-by-step process  in a systematic manner  
+  with a way of **organizing programs around problem data**  
     - **formulate data definitions** - Indentify the information that must be represented  
     - **state what kind of data** the desired function consumes and produces  
     
@@ -19,6 +33,8 @@
     - strip away all inessential details and **find a solution for  the remaining core problem**   
     - **A refinement step adds in one of the omitted details and re-solves the expanded problem**  
     - An iteration of the refinement steps eventually leads to a complete solution  
+
+
 
 * **interactive products** 
     - creating software provides immediate feedback and  thus leads to exploration,
