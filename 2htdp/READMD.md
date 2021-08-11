@@ -2,6 +2,11 @@
 ### note on how to design programs 
 
 #### Data  
+* a good programmer **designs programs**  
+    - A bad programmer tinkers until the program seems to work  
+
+* **design recipe**  
+
 * design functions  
     - information (domain)  <=>  Data  (program)  <=> information (domain)
 
