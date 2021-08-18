@@ -5,6 +5,11 @@
 * a good programmer **designs programs**  
     - A bad programmer tinkers until the program seems to work  
 
+*  TODO  - check more data definitions and representation 
+    - [The data model behind Notion's flexibility](https://www.notion.so/blog/data-model-behind-notion)
+    - [Nushell](https://www.nushell.sh/blog/2019-08-23-introducing-nushell.html)
+
+
 * **design recipe**  
 
 * design functions  
@@ -61,3 +66,4 @@ experimentation, and self-vealuation
 * [Fluent Python - 2nd](https://learning-oreilly-com.easyaccess1.lib.cuhk.edu.hk/library/view/fluent-python-2nd/9781492056348/?ar=)
 * [compiler](http://composingprograms.com/pages/31-introduction.html#programming-languages) 
 * [SICP-ch2](http://sarabander.github.io/sicp/html/Chapter-2.xhtml#Chapter-2)
+* [the-super-tiny-compiler](https://github.com/jamiebuilds/the-super-tiny-compiler)
