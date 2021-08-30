@@ -45,7 +45,6 @@
     - An iteration of the refinement steps eventually leads to a complete solution  
 
 
-
 * **interactive products** 
     - creating software provides immediate feedback and  thus leads to exploration,
 experimentation, and self-vealuation
