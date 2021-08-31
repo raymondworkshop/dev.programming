@@ -1,5 +1,7 @@
 #lang racket
-
+; 
+; about racket 
+;
 (string-append "Hello World")
 
 (cos pi)
@@ -17,3 +19,5 @@
 (show-pict (place-image (circle 5 "solid" "green")
                         50 80
                         (empty-scene 100 100)))
+
+;
