@@ -2,7 +2,7 @@
 ;
 (require 2htdp/batch-io)
 (require test-engine/racket-tests)
-; TODO - 10.3 Lists in Lists, Files
+;  - 10.3 Lists in Lists, Files
 ;
 ;  Data representation  
 ;
@@ -55,19 +55,18 @@
 ;
 ; function example into test cases
 (check-expect (words-on-line lls0) '())
-(check-expect (words-on-line lls1) (cons 2 (cons 0 '())))
+(check-expect (words-on-line lls1) (cons 0 (cons 2 '())))
 ;
 ;
 (define (words-on-line lls) 
   (cond 
     [(empty? lls) '()]
     [else
-     ( cons (
-             (length (first lls) ); a list of strings 
-             (words-on-line (rest lls)) ) )]))
+     ( cons (length (first lls) ); a list of strings 
+            (words-on-line (rest lls)) ) ]))
 
-(read-words/line "ttt.txt")
-(words-on-line (("TTT") '() ("Put" "up" "in" "a" "place")))
+
+;(test)
 ;
 ; file utility
 ; String -> list-of-numbes  
@@ -75,4 +74,6 @@
 (define (file-statistic file-name)
   (words-on-line (read-words/line file-name)))
 
-;(file-statistic "ttt.txt")
+(file-statistic "ttt.txt")
+
+
