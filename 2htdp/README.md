@@ -66,3 +66,5 @@ experimentation, and self-vealuation
 * [compiler](http://composingprograms.com/pages/31-introduction.html#programming-languages) 
 * [SICP-ch2](http://sarabander.github.io/sicp/html/Chapter-2.xhtml#Chapter-2)
 * [the-super-tiny-compiler](https://github.com/jamiebuilds/the-super-tiny-compiler)
+* the little scheme  
+* lisp in small pieces 
