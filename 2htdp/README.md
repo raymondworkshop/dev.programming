@@ -1,6 +1,10 @@
 
 ### note on how to design programs 
 
+* TODO  
+    - event programming  
+    - batch programming   
+
 #### Data  
 * a good programmer **designs programs**  
     - A bad programmer tinkers until the program seems to work  
