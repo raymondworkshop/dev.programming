@@ -46,7 +46,7 @@
     + **the programs** that use the data  
     + **the interface** between these two parts of system will be a set of cuntions, called **selectors and constructors**   
       - implement the abstract data in terms of the concrete representation   
-      - like in [data_abstraction.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/data_abstraction.py),  function numer() and denom() as selectors, and function rational() as constructors to construct the function add_rational(), mul_rational()  
+      - like in [data_abstraction.py](https://github.com/muyun/dev.programming/blob/master/sicp/exercise_py/data_abstraction.py),  function numer() and denom() as selectors, and function rational() as constructors to construct the function add_rational(), mul_rational()  
 
   - Sequence abstraction  
     + an ordered collection of data values  
@@ -54,7 +54,7 @@
 
   - conventional interface  
     + **chaining together a pipeline of functions**, if the functions all take a sequence as an input and output  
-      - like [sequences.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/sequences.py)  
+      - like [sequences.py](https://github.com/muyun/dev.programming/blob/master/sicp/exercise_py/sequences.py)  
     
 
   - mutable Data  
@@ -65,7 +65,7 @@
       - process elements of a container value sequentially  
       - **two components: next and a mechanism for signaling the end**    
       - 
-    + in the example [mutable_data.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/mutable_data.py), a mutable list is implemented, and the message passing fucntion is used.  
+    + in the example [mutable_data.py](https://github.com/muyun/dev.programming/blob/master/sicp/exercise_py/mutable_data.py), a mutable list is implemented, and the message passing fucntion is used.  
 
 
 
@@ -79,15 +79,15 @@
        - As long as **the behavior conditions are met** (such as the division property),**the selector and constructors constitute a valid representation** of a kind of data  
        - identify a basic set of operations, and then to use only those operations in manipulating the data
        - by restricting the use of operations, it is easier to change the representation of abstract data without chaning the behavior of a program  
-    +  like in [data_abstraction.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/data_abstraction.py),  function numer() and denom() as selectors, and function rational() as constructors to construct the function add_rational(), mul_rational()  
+    +  like in [data_abstraction.py](https://github.com/muyun/dev.programming/blob/master/sicp/exercise_py/data_abstraction.py),  function numer() and denom() as selectors, and function rational() as constructors to construct the function add_rational(), mul_rational()  
     
   - OOP    
-    + like [oop.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/oop.py)  
+    + like [oop.py](https://github.com/muyun/dev.programming/blob/master/sicp/exercise_py/oop.py)  
   
   - Object Abstraction  
-    + like [generic_function.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/generic_function.py)   
+    + like [generic_function.py](https://github.com/muyun/dev.programming/blob/master/sicp/exercise_py/generic_function.py)   
     + generic functions are methods or functions that apply to argumetns of diff types  
-      - [generic_function_1.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/generic_function_1.py)  
+      - [generic_function_1.py](https://github.com/muyun/dev.programming/blob/master/sicp/exercise_py/generic_function_1.py)  
 
 #### reference   
 * [Fluent Python - 2nd](https://learning-oreilly-com.easyaccess1.lib.cuhk.edu.hk/library/view/fluent-python-2nd/9781492056348/?ar=)
