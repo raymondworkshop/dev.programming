@@ -3,11 +3,7 @@
 
 ##### ch4 - Data Processing  
 * lazy computation - computing values **on demand** instead of being retrieved from an existing memory source  
-
   -  TODO - Implement stream class 
-
-
-
 
 
 ##### ch1 - Building Abstractions with Functions  
