@@ -1,7 +1,12 @@
 #lang racket
-;
-;; note: interactive programs  
-;
+"""
+2.5 Programs 
+note: a batch program 
+         - composition of auxiliary functions
+      an interactive program
+         - an event-driven program uses an expression
+         to describe which functions to call 
+"""
 
 (require 2htdp/image 
          2htdp/universe
@@ -10,7 +15,28 @@
 (define (number->square s)
   (square s "solid" "red"))
 
-(show-pict (number->square 20))
+;(show-pict (number->square 20))
+
+;(define (reset s ke) 100)
+
+;(define cw1 (ke-h cw0 "a"))
+
+(define BACKGROUND (empty-scene 100 100))
+(define DOT (circle 3 "solid" "red"))
+
+(define (place-dot-at y)
+  (place-image DOT 50 y BACKGROUND))
+
+(define (ke-h y ke) 100)
+;(define (me-h y me) ke-h "button-down" 90 100)
+(define (main y)
+  (big-bang y 
+    [on-tick sub1]
+    [stop-when zero?]
+    [to-draw place-dot-at]
+    [on-key ke-h]))
+
+(main 90)
 
 ;(show-pict (big-bang 100 [to-draw number->square]))
 
@@ -42,11 +68,11 @@
 ;    -  to describe general atttibutes of objects in the world
 (define WIDTH-OF-WORLD 400)
 (define HEIGHT-OF-WORLD 200)
-(define BACKGROUND (rectangle 
-                    WIDTH-OF-WORLD 
-                    HEIGHT-OF-WORLD 
-                    "outline"
-                    "black"))
+(define BACKGROUND1 (rectangle 
+                     WIDTH-OF-WORLD 
+                     HEIGHT-OF-WORLD 
+                     "outline"
+                     "black"))
 (define Y-CAR (/ HEIGHT-OF-WORLD 2))
 
 (define WHEEL-RADIUS 10)
@@ -83,7 +109,7 @@
 ;    place the image of the car x pixels from the left margin 
 ;    of the BACKGROUND image
 (define (render x)
-  (place-image CAR x Y-CAR BACKGROUND))
+  (place-image CAR x Y-CAR BACKGROUND1))
 
 ; mouse-event-handler
 ; WorldState -> WorldState
@@ -93,10 +119,10 @@
 ; 4. main function -> launch
 ;  WorldState -> WorldState
 ; ; launches the program from some state
-(define (main ws) 
+(define (main1 ws) 
   (big-bang ws
     [on-tick tock]
     [to-draw render]))
 
-(main 13)
+(main1 13)
 ;
