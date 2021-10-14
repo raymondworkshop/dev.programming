@@ -70,10 +70,14 @@
                (cons n alon)
                (cons (first alon) (insert n (rest alon))))]))
 ;
-(check-satisfied (sort> (list 12 20 -5)) sorted)
+; note: design functions for tests
+;       - formulating tests with check-satisfied 
+(check-satisfied (sort> '()) sorted>?)
+(check-satisfied (sort> (list 12 -5 20)) sorted>?)
 ; 
-(define (sorted l)
+(define (sorted>? l)
   (cond
     [(empty? (rest l)) #true]
-    [else (and (<= (first l) (second l)) (sorted (rest l)))]))
+    [else (and (<= (first l) (second l)) (sorted>? (rest l)))]))
+
 ; TODO - Exercise 188 
