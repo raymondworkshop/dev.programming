@@ -3,12 +3,9 @@
     //"racket": "/Users/zhaowenlong/Applications/Racket/bin/racket",
     "typescript.suggest.completeJSDocs": false,
     "code-runner.executorMapByGlob": {
-
-
         "pom.xml": "cd $dir && mvn clean package"
     },
     "code-runner.executorMapByFileExtension": {
-
         ".vb": "cd $dir && vbc /nologo $fileName && $dir$fileNameWithoutExt",
         ".vbs": "cscript //Nologo",
         ".scala": "scala",
@@ -38,7 +35,7 @@
         ".sass": "sass --style expanded",
         ".cu": "cd $dir && nvcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
     },
-    "code-runner.languageIdToFileExtensionMap": { 
+    "code-runner.languageIdToFileExtensionMap": {
         "scheme": ".ss",
         "bat": ".bat",
         "powershell": ".ps1",
@@ -96,5 +93,5 @@
         "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
     },
-
+    "python.formatting.provider": "yapf",
 }

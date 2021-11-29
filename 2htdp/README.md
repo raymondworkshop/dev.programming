@@ -5,6 +5,22 @@
     - event programming  
     - batch programming   
 
+
+#### Abstraction  
+* abstract over similarities  
+    - to abstract is to eliminate similarities  
+
+    - to abstract is to **turn something concrete into a parameter**  
+        + to abstract similar function definitions through replacing concrete values 
+        + to abstract similar data definitions, you create parametric data definitions  
+
+        +   through abstraction, you can have a single point of control over all these functions  
+    
+    -  **the template is created from the data definition**; 
+    and to organize functions around the organization of the input data definition    
+
+
+
 #### Data  
 * a good programmer **designs programs**  
     - A bad programmer tinkers until the program seems to work  

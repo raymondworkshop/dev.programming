@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """A set of classes used to represent gas and electric cars"""
 
+
 class Car():
     """represent a car"""
     def __init__(self, make, model, year):
@@ -40,16 +41,13 @@ class Battery():
     def __init__(self, battery_size=70):
         self.battery_size = battery_size
 
-
     def describe_battery(self):
         print("This car has a " + str(self.battery_size) + " -kWh battery.")
-
 
     def upgrade_battery(self):
         #import pdb; pdb.set_trace()
         if self.battery_size < 85:
             self.battery_size = 85
-
 
     def get_range(self):
         """print the range this battery provides"""
@@ -61,6 +59,7 @@ class Battery():
         message = "This car can go " + str(range)
         message += " miles on a full charge."
         print(message)
+
 
 #note: use inheritance here
 class ElectricCar(Car):
@@ -74,7 +73,8 @@ class ElectricCar(Car):
 
     def describe_battery(self):
         """"""
-        print("This car has a " + str(self.battery.battery_size) + " -kwh battery.")
+        print("This car has a " + str(self.battery.battery_size) +
+              " -kwh battery.")
 
     """
     def get_range(self):
@@ -88,7 +88,7 @@ class ElectricCar(Car):
     """
 
     # overriding methods from the parent class
-    def fill_gas_tank(self): #don't use the parent's method, so
+    def fill_gas_tank(self):  #don't use the parent's method, so
         print("This model of card doesn't need a gas tank!")
 
 
@@ -106,13 +106,16 @@ def new_electric_car():
     print(my_tesla.get_descriptive_name())
     #my_tesla.describe_battery()
 
-    my_tesla.battery.describe_battery() # work through the car's battery attribute
+    my_tesla.battery.describe_battery(
+    )  # work through the car's battery attribute
     my_tesla.fill_gas_tank()
     my_tesla.battery.get_range()
+
 
 def main():
     new_car()
     new_electric_car()
+
 
 if __name__ == "__main__":
     main()

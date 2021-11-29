@@ -80,4 +80,6 @@
     [(empty? (rest l)) #true]
     [else (and (<= (first l) (second l)) (sorted>? (rest l)))]))
 
+(test)
+
 ; TODO - Exercise 188 

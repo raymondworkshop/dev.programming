@@ -1,5 +1,5 @@
 
-#### notes
+#### notes on programming languages  
 
 #### reference
 * [cs242-Programming Languages](https://cs242.stanford.edu/f19/) 
