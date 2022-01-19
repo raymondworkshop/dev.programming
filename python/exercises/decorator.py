@@ -1,13 +1,19 @@
 #
 #ch9 - decorators and closures
+# note: use for separating concerns and avoiding external unrelated logic "polluting"  
+#       the core logic of the function or method  
 #
 
-def deco(func):
+def decorator(func):
+    # manipulate func
     def inner():
         print('running inner()')
     return inner
 
-@deco
+# target = decorator(target)
+
+#target() is decorated
+@decorator
 def target():
     print('running target()')
     return
