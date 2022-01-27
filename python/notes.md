@@ -54,6 +54,8 @@ By using and implementing special methods of Python Data Model in your objects, 
 
 #### reference  
 * [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/#)
+* [Rewriting Reddit](http://www.aaronsw.com/weblog/rewritingreddit)
+
 * [The Python Language Reference](https://docs.python.org/3/reference/lexical_analysis.html)
 * [A Conversation with Guido van Rossum](https://www.artima.com/intv/guido.html) 
 * [_why's Estate](https://viewsourcecode.org/why/)  
