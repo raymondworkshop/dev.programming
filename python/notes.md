@@ -1,4 +1,8 @@
 
+#### Project  
+* **think about the specifications** of the program you're planning to build  
+
+
 #### TODO  
 * modules  
     - modules as abstraction layers to **separate code into parts**  
