@@ -1,6 +1,8 @@
 
 #### Project  
-* **think about the specifications** of the program you're planning to build  
+* plan  
+    - **think about the specifications** of the program 
+    you're planning to build  
 
 
 #### TODO  
