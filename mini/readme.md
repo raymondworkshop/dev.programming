@@ -1,5 +1,8 @@
 
 #### mini-projects 
+* Demo  
+    - features -> tasks  
+    - decide software stack  
 
 ##### weather app  
 
