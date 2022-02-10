@@ -33,13 +33,28 @@ Python interpreter invokes special methods to perform basic object operations.
 By using and implementing special methods of Python Data Model in your objects, your objects can **behave like the built-in types**, enabling the expressive coding style **Pythonic**.
 
 #### Data Sturctures
-* sequences  
-  Python sequences are often categorized as **mutalbe or immutable**, and also could be considered as **flat sequences and container sequences**. 
-    - list -> mutable and mixed-type
-    - array
+* sequences - Python sequences are often categorized as **mutalbe or immutable**, and also could be considered as **flat sequences and container sequences**.
+    + container sequences -> hold **references** to the objects
+    + flat sequences (like str, bytes) -> more compact because of the physically store the value
+    
+    + **list** -> mutable and mixed-type
+        - list comprehensions and generator expression
+
+    + **tuples** -> immutable lists
+        - tuples can hold records
+        - tuple unpacking -> parallel assignment
+
+    + array -> efficient because of only **the packed bytes for numeric data**
+        - for large sequences of numbers, this saves a lot of memory
+        - NumPy lib
   
-* mappings  
-* sets
+* collections  
+    + dict and set  
+        - **hash tables** are the engines for the high performance dicts
+        - hash tables must be sparse to work, they are **not space efficient**, compared to a low-level array a pointers to its elements (more compact but also much lower to search)  
+
+    + Data class as a collection of fields  
+  
 * str versus bytes  
 
 * Variables are mere labels  
@@ -47,12 +62,20 @@ By using and implementing special methods of Python Data Model in your objects, 
 
 #### Functions as objects  
 
-* Decorators and Closures  
-    - 
-
+* Functions, like integers, strings, and dictionaries, also can be a **program entity**, this enables programming in a **functional style**. 
+    + The main ideas are that we can assign functions to variables, pass them to other functions, store them in data structures and access function attributes.
+    
+* function decorators and closures
+  
+    
 #### Object Oriented
 
 #### Control flow  
+* Generators - declare a function that behaves like an iterator 
+    + yield -> return the generator object 
+        - yield pauses the function and saves the local state so that it can be resumed right where it left off 
+
+* Concurrency 
 
 
 #### Metaprogramming 
