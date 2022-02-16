@@ -4,12 +4,14 @@ ch11 - a pythonic Object
 # vector2d.py
 
 import math
-
+from array import array
 
 class Vector2d:
     #list the instance attributes in the order 
     # they will be used for positional pattern matching 
     __match_args__ = ('x', 'y') 
+
+    typecode = 'd' # the type of objects stored in object
 
     def __init__(self, x, y):
         self.x = float(x)
@@ -20,6 +22,9 @@ class Vector2d:
 
     def __str__(self):
         return str(tuple(self))
+
+    def __bytes__(self):
+        return (bytes([ord(self.typecode)]))  +  bytes(array(self.typecode,self))
 
     def __add__(self, other):
         x = self.x + other.x
@@ -48,6 +53,13 @@ class Vector2d:
     def __hash__(self):  # hashable
         return hash(self.x) ^ hash(self.y)
 
+    @classmethod
+    def frombytes(cls, octets):
+        typecode = chr(octets[0])
+        memv = memoryview(octets[1:]).cast(typecode)
+        return cls(*memv)
+
+
 
 def test_vector():
     v1 = Vector2d(2, 4)
@@ -58,6 +70,9 @@ def test_vector():
     print(v * 3)
 
     print(abs(v))
+
+    octets = bytes(v1)
+    print(octets)
 
 
 def test_keyword_pattern(v: Vector2d) -> None:

@@ -81,7 +81,9 @@ experimentation, and self-vealuation
 
 #### reference
 * [how to design programs-2nd](https://htdp.org/2018-01-06/Book/index.html) 
-* [SICP in JS](https://sourceacademy.org/sicpjs/index)  
+* [Racket Scheme & SICP](https://news.ycombinator.com/item?id=25442005)
+* [SICP-JS](http://sarabander.github.io/sicp/html/index.xhtml) 
+* [](https://sourceacademy.org/sicpjs/index) 
 * [Chapter 14- Languages](http://www.catb.org/~esr/writings/taoup/html/ch14s04.html#c_lang)
 * [Fluent Python - 2nd](https://learning-oreilly-com.easyaccess1.lib.cuhk.edu.hk/library/view/fluent-python-2nd/9781492056348/?ar=)
 * [compiler](http://composingprograms.com/pages/31-introduction.html#programming-languages) 
