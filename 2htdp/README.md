@@ -7,6 +7,16 @@
 
 
 #### Abstraction  
+* **creation** - **repeated code patterns call** for abstraction  
+    - **creation of single points of control for some common functionality**, and easier to maintain program
+        +  save work and mistakes, inefficiencies, and problems headaches  
+    - how -> find differences 
+    - **form an abstraction** instead of copying and modifying an code  
+
+* **resue** of the abstractions   
+    - **appropriate pieces of documentation** - **a purpose statement, a signature, and good examples** - programmers use these to apply abstractions  
+
+
 * abstract over similarities  
     - to abstract is to eliminate similarities  
 
@@ -76,8 +86,11 @@ experimentation, and self-vealuation
 * about meta-circular evaluator and compiler 
 
 
-#### experiment  
+#### issues    
 * fix the issue - cannot display the image to use 2htdp/image directly 
+
+* 现在的编程工作更多是调用和组合别人写的轮子，
+而不像以前那样需要对轮子如何抽象和实现理解得很清楚  
 
 #### reference
 * [how to design programs-2nd](https://htdp.org/2018-01-06/Book/index.html) 
