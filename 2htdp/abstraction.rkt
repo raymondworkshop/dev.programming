@@ -4,7 +4,6 @@
 ;
 ; 14.3 Similarities in Data Definitions
 ;
-
 ; parametric data definitions
 ; A [List X Y] is a structure:
 ;  (cons X (cons Y '()))
@@ -57,4 +56,7 @@
 (test)
 ;
 ;
-; 16.1 Existing Abstractions
+; 16.1 Using Abstractions
+;   - use them when possible becuase of a working-saving device
+;   -
+;

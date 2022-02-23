@@ -9,7 +9,7 @@ from array import array
 class Vector2d:
     #list the instance attributes in the order 
     # they will be used for positional pattern matching 
-    __match_args__ = ('x', 'y') 
+    __match_args__ = ('x', 'y') # list the public attribute names for positional pattern matching  
 
     typecode = 'd' # the type of objects stored in object
 
@@ -18,7 +18,9 @@ class Vector2d:
         self.y = float(y)
 
     def __repr__(self):
-        return f"Vector({self.x!r}, {self.y!r})"
+        class_name = type(self).__name__
+        return '{}({!r}, {!r})'.format(class_name, *self)
+        #return f"Vector({self.x!r}, {self.y!r})"
 
     def __str__(self):
         return str(tuple(self))
@@ -59,6 +61,8 @@ class Vector2d:
         memv = memoryview(octets[1:]).cast(typecode)
         return cls(*memv)
 
+class ShortVector2d(Vector2d):
+    typecode = 'f'
 
 
 def test_vector():
@@ -86,10 +90,12 @@ def test_keyword_pattern(v: Vector2d) -> None:
         case _:
             print(f'{v!r} is awesome')
     
-
+def test_ShortVector2d(sv: ShortVector2d) -> None:
+    print(sv)
 
 if __name__ == "__main__":
     test_vector()
     #
     test_keyword_pattern(Vector2d(2, 0))
     #
+    test_ShortVector2d(ShortVector2d(1/11, 1/27))

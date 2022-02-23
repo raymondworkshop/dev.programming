@@ -92,10 +92,7 @@
 #### reference   
 * [how to design programs-2nd](https://htdp.org/2018-01-06/Book/index.html) 
 * [Fluent Python - 2nd](https://learning-oreilly-com.easyaccess1.lib.cuhk.edu.hk/library/view/fluent-python-2nd/9781492056348/?ar=)
-* [SICP in JS](https://sourceacademy.org/sicpjs/index)
+* [SICP-2nd](http://sarabander.github.io/sicp/html/Preface.xhtml#Preface)
 * [Python Community Interviews](https://realpython.com/team/rwhite/)  
 * [Teach Yourself Computer Science](https://teachyourselfcs.com/)
-* [SICP-ch2](http://sarabander.github.io/sicp/html/Chapter-2.xhtml#Chapter-2)
-* [SICP in python](https://wizardforcel.gitbooks.io/sicp-in-python/content/8.html)  
-* [cd61a fall2019](https://inst.eecs.berkeley.edu/~cs61a/fa19/)
 * [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/#)
