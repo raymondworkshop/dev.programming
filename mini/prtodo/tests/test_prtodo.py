@@ -1,9 +1,9 @@
-# tests/test_todo.py
+# tests/test_prtodo.py
 # running 'python3 -m pytest tests'
 
 from typer.testing import CliRunner
 
-from todo import __app_name__, __version__, cli
+from prtodo import __app_name__, __version__, cli
 
 runner = CliRunner()
 

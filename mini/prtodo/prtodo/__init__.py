@@ -1,5 +1,5 @@
-"""Top-level package for RP TO-DO."""
-# todo/__init__.py
+"""Top-level package for PR TO-DO."""
+# prtodo/__init__.py
 
 __app_name__ = "todo"
 __version__ = "0.1.0"

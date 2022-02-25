@@ -1,12 +1,12 @@
-"""The module provides the RP To-Do config functionality"""
-# todo/config.py
+"""The module provides the PR To-Do config functionality"""
+# prtodo/config.py
 
 import configparser
 from pathlib import Path
 
 import typer
 
-from todo import (
+from prtodo import (
     DB_WRITE_ERROR,
     DIR_ERROR,
     FILE_ERROR,

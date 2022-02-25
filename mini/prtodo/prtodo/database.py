@@ -1,13 +1,13 @@
-"""This module provides the RP To-Do database functionality."""
-# todo/database.py
+"""This module provides the PR To-Do database functionality."""
+# prtodo/database.py
 
 import configparser
 from io import DEFAULT_BUFFER_SIZE
 from pathlib import Path
 
-from todo import DB_WRITE_ERROR, SUCCESS
+from prtodo import DB_WRITE_ERROR, SUCCESS
 
-DEFAULT_DB_FILE_PATH = Path.cwd().joinpath("." + Path.home().stem + "_todo.json")
+DEFAULT_DB_FILE_PATH = Path.cwd().joinpath("." + Path.home().stem + "_prtodo.json")
 
 
 def get_database_path(config_file: Path) -> Path:

@@ -1,6 +1,6 @@
-""" This module provides the RP To-Do CLI."""
-# init, and connect to the to-do database
-# todo/cli.py
+""" This module provides the PR To-Do CLI."""
+# init, and connect to the PR to-do database
+# prtodo/cli.py
 
 from typing import Optional
 from pathlib import Path
@@ -8,7 +8,7 @@ import typer
 
 # from mini.todo.todo import ERRORS
 
-from todo import (
+from prtodo import (
     __app_name__,
     __version__,
     config,
