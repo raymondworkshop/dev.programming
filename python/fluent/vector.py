@@ -41,12 +41,13 @@ class Vector:
     def __bool__(self):
         return bool(abs(self))
 
-    # protocols - special methods
-    # duck typing - it's a sequence because it behaves like one
-    # sequence protocol
+    # dynamic protocols - special methods
+    # duck typing - it's a sequence because it implements the
+    # necessary sequence methods
     def __len__(self):
         return len(self._components)
 
+    # A slice-Aware __getitem__
     def __getitem__(self, key):
         if isinstance(key, slice):
             cls = type(self)
@@ -54,8 +55,34 @@ class Vector:
         index = operator.index(key)
         return self._components[index]
 
+    # to allow pattern matching on the dynamic attributes
+    # supported by __getattr__
+    __match_args__ = ("x", "y", "z", "t")
+
     # dynamic attribute access
-    #
+    def __getattr__(self, name):
+        cls = type(self)
+        try:
+            # get the position of name in __match_args__
+            pos = cls.__match_args__.index(name)
+        except ValueError:
+            pos = -1
+
+        if 0 <= pos < len(self._components):
+            return self._components[pos]
+        msg = f"{cls.__name__!r} object has no attribute {name!r}"
+
+        raise AttributeError(msg)
+
+    def __eq__(self, other):
+        return tuple(self) == tuple(other)
+
+    def __hash__(self):  # instance hashable
+        return hash(self.x) ^ hash(self.y)
+
+    def __format__(self, fmt_spec=""):  # format
+        components = (format(c, fmt_spec) for c in self)
+        return "({}, {})".format(*components)
 
     @classmethod
     def frombytes(cls, octets):
