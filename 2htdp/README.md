@@ -92,11 +92,11 @@ experimentation, and self-vealuation
 * 现在的编程工作更多是调用和组合别人写的轮子，
 而不像以前那样需要对轮子如何抽象和实现理解得很清楚  
 
-#### reference
+#### reference 
 * [how to design programs-2nd](https://htdp.org/2018-01-06/Book/index.html) 
+* [Ch3: Interpreting Computer Programs](http://composingprograms.com/pages/31-introduction.html) 
 * [Chapter 14- Languages](http://www.catb.org/~esr/writings/taoup/html/ch14s04.html#c_lang)
 * [Fluent Python - 2nd](https://learning-oreilly-com.easyaccess1.lib.cuhk.edu.hk/library/view/fluent-python-2nd/9781492056348/?ar=)
 * [compiler](http://composingprograms.com/pages/31-introduction.html#programming-languages) 
 * [SICP-2nd](http://sarabander.github.io/sicp/html/Preface.xhtml#Preface)* [the-super-tiny-compiler](https://github.com/jamiebuilds/the-super-tiny-compiler)
-* the little scheme  
 * lisp in small pieces 
