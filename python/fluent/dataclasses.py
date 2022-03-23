@@ -10,17 +10,31 @@ class City(typing.NamedTuple):
     name: str
     country: str
 
+"""
+# data class
+from dataclasses import dataclass
+from typing import List
 
-cities = [
+@dataclass
+class City:
+    continent: str
+    name: str
+    country: str
+
+@dataclass
+class Cities:
+    cities: List[City]
+"""
+cities = (
     City("Asia", "Tokyo", "JP"),
     City("Asia", "Delhi", "IN"),
     City("North America", "Mexico City", "MX"),
     City("North America", "New York", "US"),
     City("South America", "São Paulo", "BR"),
-]
+)
 
 
-"""
+
 def match_asian_cities():
     results = []
     for city in cities:
@@ -29,7 +43,7 @@ def match_asian_cities():
                 results.append(city)
 
     return results
-"""
+
 
 
 def main():
