@@ -5,6 +5,11 @@ properties replace a public data attribute with
 accessor methods (getter/setter) without changing the class interface
 """
 
+# use the __getattr__ special method to convert data structures
+# convert nested dicts and lists into nested FrozenJSON instances and lists of them
+#
+# use __new__ constructor method to transform a class into a flexible factory of objects
+
 #
 # note: a user-defined class implementing __getattr__ can implement
 #    "virtual attributes" by computing values on the fly whenever somebody
