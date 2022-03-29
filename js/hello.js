@@ -1,0 +1,2 @@
+var empty_object = {};
+
