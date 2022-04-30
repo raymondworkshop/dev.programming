@@ -8,3 +8,4 @@
 * [SICP-ch2](http://sarabander.github.io/sicp/html/Chapter-2.xhtml#Chapter-2)
 * [SICP in python](https://wizardforcel.gitbooks.io/sicp-in-python/content/8.html)  
 * [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/#)
+* [History of Tcl](http://www.tcl.tk/about/history.html)

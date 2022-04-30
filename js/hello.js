@@ -1,2 +1,4 @@
-var empty_object = {};
 
+var message = "Hello World";
+
+console.log(message);
