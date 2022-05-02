@@ -98,5 +98,5 @@ experimentation, and self-vealuation
 * [Chapter 14- Languages](http://www.catb.org/~esr/writings/taoup/html/ch14s04.html#c_lang)
 * [Fluent Python - 2nd](https://learning-oreilly-com.easyaccess1.lib.cuhk.edu.hk/library/view/fluent-python-2nd/9781492056348/?ar=)
 * [compiler](http://composingprograms.com/pages/31-introduction.html#programming-languages) 
-* [SICP-2nd](http://sarabander.github.io/sicp/html/Preface.xhtml#Preface)* [the-super-tiny-compiler](https://github.com/jamiebuilds/the-super-tiny-compiler)
+* [SICP-2nd](http://sarabander.github.io/sicp/html/Preface.xhtml#Preface)
 * lisp in small pieces 

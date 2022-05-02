@@ -1,5 +1,8 @@
 
-#### sicp  
+#### notes 
+* scheme  
+
+##### ch1 
 
 #### reference 
 * [SICP-2nd](http://sarabander.github.io/sicp/html/index.xhtml#SEC_Contents)  
