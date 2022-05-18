@@ -9,10 +9,8 @@
             "type": "python",
             "request": "launch",
             "program": "${file}",
-            "args": [
-                "Hong Kong",
-                "-i"
-            ],
+            "args": [],
+            "env": {},
             "console": "integratedTerminal",
             "autoReload": {
                 "enable": true
