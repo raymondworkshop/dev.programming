@@ -1,7 +1,8 @@
 
-#### notes on programming languages  
+#### notes  
 
-#### reference
+
+#### reference 
 * [cs242-Programming Languages](https://cs242.stanford.edu/f19/) 
 * [CSE341: Programming Languages, Autumn 2019](https://courses.cs.washington.edu/courses/cse341/19au/#all)
 * 

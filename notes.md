@@ -1,4 +1,20 @@
 
+#### Python  
+* Python provides **a kind of "domain language" for thinking about your problem**    
+    - **Python Data Model**, and its API to make our own objects  
+        + **The built-in operators and expressions are at the core** of that language and everything else builds from it.  
+
+        + we leverage the Python Data Model to build new classes  
+            - implement special methods when we want out objects to support and interact with fundamental language constructs  
+            - the Python interpreter **invokes special methods to perform** basic object operations  
+  
+    - one you build **a kind of intuition around python's built-in objects and operations**, you will find that your intuition applies everywhere  
+        
+* Object, and Protocols  
+    - everything in Python is first-class  
+    - **All objects can be treated as data**    
+
+
 
 #### dynamic program language  
 
