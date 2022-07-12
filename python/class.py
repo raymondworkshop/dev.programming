@@ -1,5 +1,8 @@
 """
+ch7 - classes and object-oriented programming
+
 Objects, Types, and Protocols in <Python Distilled>
+
 """
 
 
