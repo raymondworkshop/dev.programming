@@ -85,6 +85,7 @@ By using and implementing special methods of Python Data Model in your objects, 
 * [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/#)
 * [Rewriting Reddit](http://www.aaronsw.com/weblog/rewritingreddit)
 
+* [Python Stacks, Queues, and Priority Queues in Practice](https://realpython.com/queue-in-python/#integrating-python-with-distributed-message-queues)
 * [The Python Language Reference](https://docs.python.org/3/reference/lexical_analysis.html)
 * [A Conversation with Guido van Rossum](https://www.artima.com/intv/guido.html) 
 * [_why's Estate](https://viewsourcecode.org/why/)  
