@@ -56,7 +56,7 @@
 - mutable Data  
     + how data can be endowed with behavior using message passing and an object system 
     + non-local assignment give the ability to **maintain some state that is local to a function, but evolves over successive calls** to that function   
-    +  
+    
     + **Iterator**    
         - process elements of a container value sequentially  
         - **two components: next and a mechanism for signaling the end**    
@@ -74,6 +74,7 @@
         - As long as **the behavior conditions are met** (such as the division property),**the selector and constructors constitute a valid representation** of a kind of data  
         - identify a basic set of operations, and then to use only those operations in manipulating the data
         - by restricting the use of operations, it is easier to change the representation of abstract data without chaning the behavior of a program  
+    
     +  like in [data_abstraction.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/data_abstraction.py),  function numer() and denom() as selectors, and function rational() as constructors to construct the function add_rational(), mul_rational()  
     
 - OOP    
@@ -85,6 +86,7 @@
         - [generic_function_1.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/generic_function_1.py)  
 
 #### reference   
+* **[CS 61A: Structure and Interpretation of Computer Programs](https://cs61a.org/)**  
 * [Racket Scheme & SICP](https://news.ycombinator.com/item?id=25442005)
 * [SICP in JS](https://sourceacademy.org/sicpjs/index)
 * [cd61a fall2019](https://inst.eecs.berkeley.edu/~cs61a/fa19/)

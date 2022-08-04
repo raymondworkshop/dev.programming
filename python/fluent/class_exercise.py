@@ -51,7 +51,7 @@ class AccountPortfolio:
         return iter(self.accounts)
 
 
-def test():
+def test_Account():
     a = Account('Raymond', 1000.0)
     # call Account.__init__(a, 'Raymond', 1000.0)
     print(vars(a)) #view instance variables
@@ -68,10 +68,45 @@ def test():
         print(account)
 
 
-# 7.8 composition
-class Stack(list):
-    ...
+# 7.8 composition  
+# prefer composition over inheritance  
+# note: Using inheritance gets a lot of features that aren't pertinent to the problem actually being solved 
+#  if the object you're building is a specialized version of the parent class, use inheritance;
+# or if you are merely using it as a component in building something else, use composition 
+#
+class Stack:
+    """change the implementation of used linked tuples 
+    """
+    def __init__(self):
+        self._items = None
+        self._size = 0
 
+    def push(self, item):
+        self._items = (item, self._items)
+        self._size += 1
+    
+    def pop(self):
+        (item, self._items) = self._items
+        self._size -= 1
+        return item 
+
+    def __len__(self):
+        return self._size
+
+def test_Stack():
+    s = Stack()
+    s.push(1)
+    s.push(2)
+    s.push(3)
+    print(s.pop())
+    print(s.pop())
+
+    return
+
+# dependency injection skill
+
+# 7.17 Properties  
 
 if __name__ == "__main__":
-    test()
+    #test_Account()
+    test_Stack()
