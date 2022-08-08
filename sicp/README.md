@@ -94,3 +94,9 @@
 * [SICP in python](https://wizardforcel.gitbooks.io/sicp-in-python/content/8.html)  
 * [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/#)
 * [History of Tcl](http://www.tcl.tk/about/history.html)
+* [SICP-guile](https://github.com/zv/SICP-guile)  
+* [A Scheme Primer](https://spritely.institute/static/papers/scheme-primer.html)
+* [how to design programs-2nd](https://htdp.org/2018-01-06/Book/index.html) 
+* the little scheme  
+
+* [Why Study Functional Programming?](https://acm.wustl.edu/functional/)

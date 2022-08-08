@@ -105,7 +105,20 @@ def test_Stack():
 
 # dependency injection skill
 
-# 7.17 Properties  
+# 7.17 Properties
+# to intercept attribute access and handles it via user-defined methods
+# a commone to use properties for implementing read-only computed data attributes  
+#
+
+# 7.18 Interfaces, and ABC  
+# a common use of class typing relations is the specification of programming interfaces.
+#   
+# a base class(ABC) and a decoractor(@abstractmethods) are used together 
+# to describe an interface (methods and properties for use in subclasses).
+# 
+# different classes would inherit from the base class and implement the required functionality.
+# then base class might then be used for typing hinting or for defensive type enforcement via isinstancer()
+
 
 if __name__ == "__main__":
     #test_Account()
