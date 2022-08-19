@@ -1,5 +1,22 @@
 
 #### notes  
+* data structures  
+    - num, booleans, strings are the atoms  
+        + immutable and cannot be changed  
+
+    - arrays and objects are used to group values into a single value  
+        + arrays  - sequence of values  
+        + objects - dict  
+            + reference  - binding 
+            + mutable  
+
+* JSON  
+    
+
+* abstraction  
+    - function 
+        
+
 * JS Function is a value **representing an "action"**  
 
 * object is stored and copied "by **reference**",
