@@ -10,7 +10,12 @@
         + objects - dict  
             + reference  - binding 
             + mutable  
-        + object is stored and copied "by **reference**" 
+        + object is stored and copied "by **reference**"  
+        
+        + most objects also have a **prototype**  
+            + a prototype is another object that is used as a fallback source of properties  
+            + Object.prototype  
+
     
 
 * JS functions are regular **values** **representing an "action"**     

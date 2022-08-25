@@ -30,7 +30,8 @@
 #### dynamic program language  
 
 
-#### reference
+#### reference  
+* [The Practice of Programming](https://book.douban.com/subject/1459281/)
 * **[SICP-2nd](http://sarabander.github.io/sicp/html/index.xhtml#SEC_Contents)**  
 * [SICP-JS]](https://sourceacademy.org/sicpjs/acknowledgements)  
 * **[The Art of Unix Programming](http://www.catb.org/~esr/writings/taoup/html/)** 
