@@ -4,12 +4,55 @@
 * some recent progress in computer programs  
 
 
-##### ch4 - Data Processing  
-* lazy computation - computing values **on demand** instead of being retrieved from an existing memory source  
-    -  TODO - Implement stream class 
+
+#### ch2 - Data Abstraction - Building Abstractions by combining data objects to form compound data    
+
+- data abstraction  manipulate **compound values as units**
+    + how data are manipulated (as units)   
+    + **how data are represented (as parts)**  
+        - message passing - how to form compound data using only procedures  
+            + **manipulate procedures as objects automatically provides the ability to represent compound data**  
+
+        - paris in scheme  
+            + **closure property**  -> create **hierarchical structures**  
+                - the elements of a combination can themselves be combinations    
+        
+        - sequences  
+            + list, tree 
+
+    + **the interface** between these two parts of system will be a set of functions, called **selectors and constructors**  
+        - like in [data_abstraction.py](https://github.com/muyun/dev.programming/blob/master/sicp/python/data_abstraction.py),  function numer() and denom() as selectors, and function rational() as constructors to construct the function add_rational(), mul_rational()  
 
 
-#### ch3 - **language abstraction** using interpreters and macros  
+- **Sequence paradigm** (implemented as lists) as conventional interface    
+    + **signal-flow structure**         
+        -  **express programs as sequence operations**,and make program designs that are modular  
+        - **modular design by providing a library of components together** 
+        with a conventional interface for connecting the components in flexible ways  
+
+        - TODO: Nested Mappings  
+
+    + **chaining together a pipeline of functions**, if the functions all take a sequence as an input and output  
+        - like [sequences.py](https://github.com/muyun/dev.programming/blob/master/sicp/python/sequences.py)  
+    
+
+- OOP    
+    + like [oop.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/oop.py)  
+  
+- Object Abstraction  
+    + like [generic_function.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/generic_function.py)   
+    + generic functions are methods or functions that apply to argumetns of diff types  
+        - [generic_function_1.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/generic_function_1.py)      
+
+- mutable Data  
+    + how data can be endowed with behavior using message passing and an object system 
+    + non-local assignment give the ability to **maintain some state that is local to a function, but evolves over successive calls** to that function   
+     
+    + **Iterator**    
+        - process elements of a container value sequentially  
+        - **two components: next and a mechanism for signaling the end**    
+      
+    + in the example [mutable_data.py](https://github.com/muyun/dev.programming/blob/master/sicp/python/mutable_data.py), a mutable list is implemented, and the message passing fucntion is used.  
 
 
 ##### ch1 - Building Abstractions with Functions  
@@ -33,62 +76,15 @@
     - **control abstraction** using recursion, higher-order functions, generators, and streams  
         + higher-order functions 
             - how **functions can be manipulated as data** using higher-order functions  
-  
-
-#### ch2 - Data Abstraction - Building Abstractions with Data  
-- **data abstraction** using interfaces, objects, classes, and generic operators  
-- structed data  
-    + object metaphor -> value + behavior  
-- struct programs on abstract data  
-- data abstraction manipulate **compound values as units**  
-    + isolate **how data are represented (as parts)** and **how data are manipulated (as units)**  
-    
-    + **a concrete data representation**  
-    + **the programs** that use the data  
-    + **the interface** between these two parts of system will be a set of cuntions, called **selectors and constructors**   
-        - implement the abstract data in terms of the concrete representation   
-        - like in [data_abstraction.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/data_abstraction.py),  function numer() and denom() as selectors, and function rational() as constructors to construct the function add_rational(), mul_rational()  
-
-- Sequence abstraction  
-    + an ordered collection of data values  
-    + share certain properties like length and element selection (like index)  
-
-- conventional interface  
-    + **chaining together a pipeline of functions**, if the functions all take a sequence as an input and output  
-      - like [sequences.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/sequences.py)  
-    
-
-- mutable Data  
-    + how data can be endowed with behavior using message passing and an object system 
-    + non-local assignment give the ability to **maintain some state that is local to a function, but evolves over successive calls** to that function   
-    
-    + **Iterator**    
-        - process elements of a container value sequentially  
-        - **two components: next and a mechanism for signaling the end**    
-      
-    + in the example [mutable_data.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/mutable_data.py), a mutable list is implemented, and the message passing fucntion is used.  
 
 
-#### ch2 - Object Abstraction - Organize large programs  
-- **build modular, maintainable, and extensible programs**       
-- functional abstraction  
-    + **a method of abstraction that describe compound operations** independent of a particular values  
+##### ch4 - Data Processing  
+* lazy computation - computing values **on demand** instead of being retrieved from an existing memory source  
+    -  TODO - Implement stream class 
 
-- data abstraction  - abstraction barrier  
-    +  we can express abstract data using **a collection of selectors and constructors, together with some behavior**  
-        - As long as **the behavior conditions are met** (such as the division property),**the selector and constructors constitute a valid representation** of a kind of data  
-        - identify a basic set of operations, and then to use only those operations in manipulating the data
-        - by restricting the use of operations, it is easier to change the representation of abstract data without chaning the behavior of a program  
-    
-    +  like in [data_abstraction.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/data_abstraction.py),  function numer() and denom() as selectors, and function rational() as constructors to construct the function add_rational(), mul_rational()  
-    
-- OOP    
-    + like [oop.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/oop.py)  
-  
-- Object Abstraction  
-    + like [generic_function.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/generic_function.py)   
-    + generic functions are methods or functions that apply to argumetns of diff types  
-        - [generic_function_1.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/generic_function_1.py)  
+
+#### ch3 - **language abstraction** using interpreters and macros  
+
 
 #### reference  
 * **[SICP-ch2](https://sarabander.github.io/sicp/html/index.xhtml#SEC_Contents)**

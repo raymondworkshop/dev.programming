@@ -1,6 +1,6 @@
 {
-    //"scheme": "/usr/local/bin/scheme",
-    //"racket": "/Users/zhaowenlong/Applications/Racket/bin/racket",
+    "scheme": "/usr/local/bin/scheme",
+    "racket": "/Users/zhaowenlong/Applications/Racket/bin/racket",
     "typescript.suggest.completeJSDocs": false,
     "python.envFile": "/Users/zhaowenlong/.env/programenv/bin/python",
     "code-runner.executorMapByGlob": {
@@ -16,7 +16,7 @@
         ".exs": "elixir",
         ".hx": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
         ".rkt": "racket",
-        ".ss": "scheme <$fullFileName",
+        ".ss": "scheme",
         ".ahk": "autohotkey",
         ".au3": "autoit3",
         ".kt": "cd $dir && kotlinc $fileName -include-runtime -d $fileNameWithoutExt.jar && java -jar $fileNameWithoutExt.jar",
