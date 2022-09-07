@@ -1,15 +1,5 @@
 
 
-#### vim
-* common commands 
-    - :sp (:split) -> split vim the window horizontally  
-    - :vsp (:vsplit) -> split vim window vertically  
-    - Ctrl + wj -> move cursor to the window below (horizontal split)  
-    - Ctrl + wk -> move cursor to the window below (horizontal split)  
-    - Ctrl + wh -> move cursor to the left window (vertical split)
-    - Ctrl + wl -> move cursor to the right window (vertical split)
-
-
 #### Python  
 * Python provides **a kind of "domain language" for thinking about your problem**    
     - **Python Data Model**, and its API to make our own objects  
@@ -26,8 +16,17 @@
     - **All objects can be treated as data**    
 
 
-
 #### dynamic program language  
+
+#### vim
+* common commands 
+    - :sp (:split) -> split vim the window horizontally  
+    - :vsp (:vsplit) -> split vim window vertically  
+    - Ctrl + wj -> move cursor to the window below (horizontal split)  
+    - Ctrl + wk -> move cursor to the window below (horizontal split)  
+    - Ctrl + wh -> move cursor to the left window (vertical split)
+    - Ctrl + wl -> move cursor to the right window (vertical split)
+
 
 
 #### reference  
