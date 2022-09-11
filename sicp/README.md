@@ -25,16 +25,20 @@
 
 
 - **Sequence paradigm** (implemented as lists) as conventional interface    
-    + **signal-flow structure**         
-        -  **express programs as sequence operations**,and make program designs that are modular  
+    + The representation of sequences in terms of **lists** or **trees**   
+        - **signal-flow structure**    
+        - **map** together with recursion is a powerful abstraction for dealing with trees  
+    
+    + **express programs as sequence operations**,and **make program designs that are modular**      
         - **modular design by providing a library of components together** 
         with a conventional interface for connecting the components in flexible ways  
-
-        - TODO: Nested Mappings  
+            + filter, map, accumulate  
 
     + **chaining together a pipeline of functions**, if the functions all take a sequence as an input and output  
         - like [sequences.py](https://github.com/muyun/dev.programming/blob/master/sicp/python/sequences.py)  
     
+    + TODO: 2.2.4Example: A Picture Language
+
 
 - OOP    
     + like [oop.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/oop.py)  
