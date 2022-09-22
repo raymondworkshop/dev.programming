@@ -118,8 +118,22 @@ def test_Stack():
 # 
 # different classes would inherit from the base class and implement the required functionality.
 # then base class might then be used for typing hinting or for defensive type enforcement via isinstancer()
+import abc
+
+class BasePizza(object, metaclass=abc.ABCMeta):
+    # the abstract method needs to be implemented by a subclass  
+    @abc.abstractmethod
+    def get_ingredients(self):  #an interface
+        """ Returns the ingredient list."""
+
+
+class Calzone(BasePizza):
+    def get_ingredients(self, with_egg=False):
+        egg = "egg" if with_egg else None
+        return egg
 
 
 if __name__ == "__main__":
     #test_Account()
-    test_Stack()
+    #test_Stack()
+    BasePizza()
