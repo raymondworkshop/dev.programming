@@ -120,20 +120,77 @@ def test_Stack():
 # then base class might then be used for typing hinting or for defensive type enforcement via isinstancer()
 import abc
 
-class BasePizza(object, metaclass=abc.ABCMeta):
-    # the abstract method needs to be implemented by a subclass  
+class BasePizza(metaclass=abc.ABCMeta):
+    default_ingredients = ['cheese']
+
+    @classmethod  
     @abc.abstractmethod
-    def get_ingredients(self):  #an interface
+    def get_ingredients(cls):  #an interface to be implemented by subclasses 
         """ Returns the ingredient list."""
+        return cls.default_ingredients
 
 
-class Calzone(BasePizza):
+class DietPizza(BasePizza):
+    # use a subclass to extend the signature of the abstract method
     def get_ingredients(self, with_egg=False):
         egg = "egg" if with_egg else None
-        return egg
+        # every Pizza also has access to the base class's default methanism for getting the ingredients list
+        return [egg] + super().get_ingredients()
+
+class Fridge():
+    default_vegetables = "apple"
+
+    def get_vegetables(self):
+        return self.default_vegetables
+
+
+class Pizza():
+    def __init__(self, ingredients):
+        self.ingredients = ingredients
+    
+    def get_ingredients(self):
+        """Returns the ingredient list."""
+        return self.ingredients
+
+    #static methods belongs to the Pizza class
+    # 1. Python does not have to instantiate a bound method
+    # 2. the mthod does not depend on the state of the object
+    @staticmethod
+    def mix_ingredients(x, y):
+        return x + y
+
+    #class methods
+    # the method is always bound to the class it is attached to
+    # class methos are useful for creating factory methods
+    # which instantiate objects using a different signature than __init__  
+    @classmethod
+    def from_fridge(cls, fridge):
+        #a from_fridge() factory method
+        return cls(fridge.get_vegetables())
+
+
+def test_Pizza():
+    p = Pizza("cheeze")
+    print(Pizza.get_ingredients(p))
+    # self argument is automatically set to Pizza instance
+    # Note - we can access get_radius() from Pizza instance
+    # Python will auto pass the object itself to the method's self parameter
+    print(p.get_ingredients())
+
+    # because static methods, we neednot bound method for each Pizza object
+    print(Pizza.mix_ingredients("egg","cheese"))
+    assert Pizza("cheeze").mix_ingredients is Pizza.mix_ingredients
+    #
+    print(DietPizza().get_ingredients())
+    #
+    # class method
+    f = Fridge()
+    # a brand-new Pizza with ingredients taken in  Fridge()
+    new_pizza = Pizza.from_fridge(f)
+    print(new_pizza.get_ingredients()) #apple
 
 
 if __name__ == "__main__":
     #test_Account()
     #test_Stack()
-    BasePizza()
+    test_Pizza()
