@@ -5,7 +5,20 @@
     you're planning to build  
 
 
-#### TODO  
+#### namespace  
+* start with a package  -> all of code remains isolated  
+    - put starting code in __main__.py and run it using python -m program  
+```
+    program/
+        __init__.py  
+        __main__.py  
+```
+    - use package-relative imports  
+
+* package  
+    - a package is a collection of modules that are **grouped under a common top-level name**    
+    - __init__.py file is to **build and/or manage the contents of the top-level package namespace**   
+
 * modules  
     - modules as abstraction layers to **separate code into parts**  
     - python interpreter search for models **in the "path"** recursively 
@@ -13,7 +26,7 @@
 
     - group modules together in a package  
 
-* namespace control 
+
 
 * pure functions  
     - more efficient building blocks than classes and objects 
