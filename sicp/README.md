@@ -16,19 +16,18 @@
 
 - **Sequence paradigm** (implemented as lists) as conventional interface    
     + The representation of sequences in terms of **lists** or **trees**   
-        - like [tree.py]() or [link.py]()   
-        - **map** together with recursion is a powerful abstraction for dealing with trees  
+        - like [tree.py](https://github.com/muyun/dev.programming/blob/master/sicp/python/tree.py) or [link.py](https://github.com/muyun/dev.programming/blob/master/sicp/python/link.py)   
     
     + **express programs as sequence operations**,and **make program designs that are modular**      
-        - **modular design by providing a library of components together** 
-        with a conventional interface for connecting the components in flexible ways  
+        - **modular design by providing a library of components together** with a conventional interface for connecting the components in flexible ways  
             + filter, map, accumulate  
 
     + **chaining together a pipeline of functions**, if the functions all take a sequence as an input and output  
         - like [sequences.py](https://github.com/muyun/dev.programming/blob/master/sicp/python/sequences.py)  
     
-    + TODO: 2.2.4Example: A Picture Language
 
+- Mutable Data  
+    + TODO  2.4 Mutable Data
 
 - OOP    
     + like [oop.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/oop.py)  
