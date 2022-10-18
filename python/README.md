@@ -4,6 +4,8 @@
     - **think about the specifications** of the program 
     you're planning to build  
 
+    - make writing the programs a more **intuitive** task  
+
 
 #### namespace  
 * start with a package  -> all of code remains isolated  
@@ -35,9 +37,7 @@
    
 * class 
 
-#### notes  
-*  do more coding  
-*  make writing the programs a more **intuitive** task  
+
 
 #### Python Data Model - A Framework/API for core language constructs
 
