@@ -8,25 +8,15 @@
 #### ch2 - Data Abstraction - Building Abstractions by combining data objects to form compound data    
 
 - data abstraction  manipulate **compound values as units**
-    + how data are manipulated (as units)   
-    + **how data are represented (as parts)**  
-        - message passing - how to form compound data using only procedures  
-            + **manipulate procedures as objects automatically provides the ability to represent compound data**  
-
-        - paris in scheme  
-            + **closure property**  -> create **hierarchical structures**  
-                - the elements of a combination can themselves be combinations    
-        
-        - sequences  
-            + list, tree 
-
-    + **the interface** between these two parts of system will be a set of functions, called **selectors and constructors**  
+    + how compound data is used    
+    + how compound data are represented    
+        - **the interface/barriers** between these two parts of system will be a set of functions, called **selectors and constructors**  
         - like in [data_abstraction.py](https://github.com/muyun/dev.programming/blob/master/sicp/python/data_abstraction.py),  function numer() and denom() as selectors, and function rational() as constructors to construct the function add_rational(), mul_rational()  
 
 
 - **Sequence paradigm** (implemented as lists) as conventional interface    
     + The representation of sequences in terms of **lists** or **trees**   
-        - **signal-flow structure**    
+        - like [tree.py]() or [link.py]()   
         - **map** together with recursion is a powerful abstraction for dealing with trees  
     
     + **express programs as sequence operations**,and **make program designs that are modular**      
@@ -91,7 +81,7 @@
 
 
 #### reference  
-* **[SICP-ch2](https://sarabander.github.io/sicp/html/index.xhtml#SEC_Contents)**
+* **[Composing Programs](https://composingprograms.com/)**
 * **[CS 61A: Structure and Interpretation of Computer Programs](https://cs61a.org/)** 
 * [Essentials of Programming Languages](https://book.douban.com/subject/3136252/)  
 * [Racket Scheme & SICP](https://news.ycombinator.com/item?id=25442005)

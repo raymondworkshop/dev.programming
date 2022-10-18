@@ -10,11 +10,12 @@
 #### namespace  
 * start with a package  -> all of code remains isolated  
     - put starting code in __main__.py and run it using python -m program  
-```
+    ```
     program/
         __init__.py  
         __main__.py  
-```
+    ```  
+
     - use package-relative imports  
 
 * package  
@@ -27,7 +28,6 @@
         + the included code is isolated in **a module namespace**, and neednot worry the included codde have unwanted effects  
 
     - group modules together in a package  
-
 
 
 * pure functions  
