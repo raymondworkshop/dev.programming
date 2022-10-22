@@ -27,7 +27,10 @@
     
 
 - Mutable Data  
-    + TODO  2.4 Mutable Data
+    + Add state to data  
+        - data can have behavior  
+        - Functions could be manipulated as data  
+    + TODO  2.4.4   Local State     
 
 - OOP    
     + like [oop.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/oop.py)  

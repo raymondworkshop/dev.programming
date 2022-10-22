@@ -23,7 +23,7 @@
     - __init__.py file is to **build and/or manage the contents of the top-level package namespace**   
 
 * modules  
-    - modules as abstraction layers to **separate code into parts**  
+    - modules as abstraction layers to **separate code into parts** that **hold related data and functionality**     
     - python interpreter search for models **in the "path"** recursively 
         + the included code is isolated in **a module namespace**, and neednot worry the included codde have unwanted effects  
 
