@@ -18,6 +18,12 @@
 
 #### dynamic program language  
 
+#### env
+* env  
+    > python3 -m venv programenv  
+    > source  programenv/bin/activate   
+    > deactivate  
+
 #### vim
 * common commands 
     - :sp (:split) -> split vim the window horizontally  
