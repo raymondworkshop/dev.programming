@@ -1,5 +1,8 @@
 
 #### notes  
+* Module design    
+    - ini package  
+
 * data structures  
     - primitive values: num, booleans, strings 
         + immutable and cannot be changed  
@@ -17,7 +20,6 @@
             + Object.prototype  
 
     
-
 * JS functions are regular **values** **representing an "action"**     
     - higher-order functions allow us to **abstract over actions**, not just values  
         + pass function values to other functions  

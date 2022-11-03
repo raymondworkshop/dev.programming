@@ -83,7 +83,8 @@
 
 
 #### reference  
-* **[Composing Programs](https://composingprograms.com/)**
+* **[Composing Programs](https://composingprograms.com/)**  
+* **[how to design programs-2nd](https://htdp.org/2018-01-06/Book/index.html)**  
 * **[CS 61A: Structure and Interpretation of Computer Programs](https://cs61a.org/)** 
 * [Essentials of Programming Languages](https://book.douban.com/subject/3136252/)  
 * [Racket Scheme & SICP](https://news.ycombinator.com/item?id=25442005)

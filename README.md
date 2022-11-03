@@ -37,7 +37,7 @@
 
 #### reference  
 * **[SICP in Python](https://wizardforcel.gitbooks.io/sicp-in-python/content/0.html)**
-* [**how to design programs-2nd](https://htdp.org/2018-01-06/Book/index.html)**  
+* **[how to design programs-2nd](https://htdp.org/2018-01-06/Book/index.html)**  
 * **[The Art of Unix Programming](http://www.catb.org/~esr/writings/taoup/html/)** 
 * [The Practice of Programming](https://book.douban.com/subject/1459281/)
 * [SICP-2nd](http://sarabander.github.io/sicp/html/index.xhtml#SEC_Contents)  
