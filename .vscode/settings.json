@@ -1,8 +1,8 @@
 {
     "scheme": "/usr/local/bin/scheme",
-    "racket": "/Users/zhaowenlong/Applications/Racket/bin/racket",
+    "racket": "/Users/zhaowenlong/Applications/Racketv8.1/bin/racket",
     "typescript.suggest.completeJSDocs": false,
-    "python.envFile": "/Users/zhaowenlong/.env/programenv/bin/python",
+    "python.envFile": "/Users/zhaowenlong/workspace/proj/dev.programming/programenv/bin/python",
     "code-runner.executorMapByGlob": {
         "pom.xml": "cd $dir && mvn clean package"
     },

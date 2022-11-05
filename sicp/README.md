@@ -7,7 +7,9 @@
 
 #### ch2 - Data Abstraction - Building Abstractions by combining data objects to form compound data    
 
-- data abstraction  manipulate **compound values as units**
+- how data can be endowed **with behavior using message passing and an object system**    
+
+- **data abstraction**  manipulate compound values as units
     + how compound data is used    
     + how compound data are represented    
         - **the interface/barriers** between these two parts of system will be a set of functions, called **selectors and constructors**  
@@ -26,32 +28,36 @@
         - like [sequences.py](https://github.com/muyun/dev.programming/blob/master/sicp/python/sequences.py)  
     
 
-- Mutable Data  
+- Mutable Data allows us to simulate systems with change  
     + Add state to data  
         - data can have behavior  
         - Functions could be manipulated as data  
-    + TODO  2.4.4   Local State     
 
-- OOP    
+    + nonlocal assignment  
+        - only function calls can introduce new frames  
+
+        - Using nonlocal, we can view a program as a collection of independent and autonomous objects  (interact with each other but each manage their own internal state)
+            + **Different parts of a program**, which **correspond to different environment frames**, can evolve separately throughout program execution  -> modular 
+            + **using functions with local state**, we can implement abstract data types  
+                -  **A mutable linked list is a function**, the example [mutable_data.py](https://github.com/muyun/dev.programming/blob/master/sicp/python/mutable_data.py), a mutable list is implemented, and the message passing fucntion is used  
+
+
+- **class inheritance**       
+    + TODO 2.5  
     + like [oop.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/oop.py)  
   
-- Object Abstraction  
+- **generic functions**      
     + like [generic_function.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/generic_function.py)   
     + generic functions are methods or functions that apply to argumetns of diff types  
         - [generic_function_1.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/generic_function_1.py)      
 
-- mutable Data  
-    + how data can be endowed with behavior using message passing and an object system 
-    + non-local assignment give the ability to **maintain some state that is local to a function, but evolves over successive calls** to that function   
-     
-    + **Iterator**    
-        - process elements of a container value sequentially  
-        - **two components: next and a mechanism for signaling the end**    
-      
-    + in the example [mutable_data.py](https://github.com/muyun/dev.programming/blob/master/sicp/python/mutable_data.py), a mutable list is implemented, and the message passing fucntion is used.  
 
 
 ##### ch1 - Building Abstractions with Functions  
+* how functions can be manipulated **as data using higher-order functions**  
+
+* **functional abstraction**    
+
 * represent **procedures (descriptions of processes) as data**  
     - Lisp’s flexibility in handling procedures as data 
     -  blur the traditional distinction between “passive” data and “active” processes.
