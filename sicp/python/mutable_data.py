@@ -17,7 +17,13 @@ def mutable_link():
     """
     contents = "empty"
     def dispatch(message, value=None):
-        nonlocal contents  #nonlocal declares contents is changed in the 1st frame where contents is already bound
+        #nonlocal declares contents is changed in the 1st frame where contents is already bound
+        nonlocal contents  
+
+        #note: message passing -encapsulate the logic for all operations on a data value 
+        # within one function that responds to different messages;
+        # the messages are string that correspond to particular behaviors  
+        # 
         if message == 'len':
             return len_link(contents)
         elif message == 'getitem':
@@ -82,6 +88,7 @@ def dictionary():
             key, value = matches[0]
             return value
     def dispatch(message, key=None, value=None):
+        #the messages are string that correspond to particular behaviors  
         if message == 'setitem':
             setitem(key, value)
         elif message == 'getitem':
@@ -117,6 +124,6 @@ def test_dictionary():
 
 
 if __name__ == "__main__":
+    test_mutable_link()
     #test_mutable_link()
-    #test_mutable_link()
-    test_dictionary()
+    #test_dictionary()

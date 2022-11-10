@@ -33,20 +33,25 @@
         - data can have behavior  
         - Functions could be manipulated as data  
 
+    + **using functions with local state**, we can implement abstract data types  
+        -  **A mutable list could be represented using functions with local state**, like the example [mutable_data.py](https://github.com/muyun/dev.programming/blob/master/sicp/python/mutable_data.py)
+        
+
     + nonlocal assignment  
         - only function calls can introduce new frames  
 
         - Using nonlocal, we can view a program as a collection of independent and autonomous objects  (interact with each other but each manage their own internal state)
             + **Different parts of a program**, which **correspond to different environment frames**, can evolve separately throughout program execution  -> modular 
-            + **using functions with local state**, we can implement abstract data types  
-                -  **A mutable linked list is a function**, the example [mutable_data.py](https://github.com/muyun/dev.programming/blob/master/sicp/python/mutable_data.py), a mutable list is implemented, and the message passing fucntion is used  
+    
 
+- **oop**       
+    + self is bound to the object  
+    + OOP is well-suited to programs that model systems that have **separate but interacting parts**    
+        - like [oop.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/oop.py)  
+    + TODO 2.6    
 
-- **class inheritance**       
-    + TODO 2.5  
-    + like [oop.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/oop.py)  
-  
 - **generic functions**      
+    + TODO 2.7  
     + like [generic_function.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/generic_function.py)   
     + generic functions are methods or functions that apply to argumetns of diff types  
         - [generic_function_1.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/generic_function_1.py)      
