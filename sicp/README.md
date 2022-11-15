@@ -34,7 +34,7 @@
         - Functions could be manipulated as data  
 
     + **using functions with local state**, we can implement abstract data types  
-        -  **A mutable list could be represented using functions with local state**, like the example [mutable_data.py](https://github.com/muyun/dev.programming/blob/master/sicp/python/mutable_data.py)
+        -  **A mutable list could be represented using functions with local state**, like the example [message_passing.py](https://github.com/muyun/dev.programming/blob/master/sicp/python/mutable_data.py)  
         
 
     + nonlocal assignment  
@@ -50,15 +50,15 @@
         - like [oop.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/oop.py)  
     + TODO 2.6    
 
-- **generic functions**      
-    + TODO 2.7  
+- **generic functions** accepts values of multiple different types  
+    + TODO 2.7.4  
     + like [generic_function.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/generic_function.py)   
     + generic functions are methods or functions that apply to argumetns of diff types  
         - [generic_function_1.py](https://github.com/muyun/dev.programming/blob/master/python/exercise_py/generic_function_1.py)      
 
 
 
-##### ch1 - Building Abstractions with Functions  
+##### ch1 - Function Abstraction  
 * how functions can be manipulated **as data using higher-order functions**  
 
 * **functional abstraction**    

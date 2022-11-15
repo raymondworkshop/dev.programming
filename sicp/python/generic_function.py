@@ -1,44 +1,89 @@
 """
+implementing generic functions: 
+   - shared interfaces 
+   - type dispatching
+   - type coercion  
+
+A system to perform arithmetic operations on complex numbers 
+using generic operations
 """
-#
-# A Complex number is a Number 
-# The purpose of Number is not be instantiated directly, but instead to
-#  **serve as a superclass of various specific number classes** 
-#
-# an interface is **a set of shared attribute names, along with a specification of their behavior**
-# 1. Number objects have add and mul methods, but does not define them
+
+# note: the class requires the Number objects have add and mul methods,
+# but does not define them
+# 
+# serve as a superclass of various specific number classes
 class Number:
-    def __add__(self, other):
+    #import ipdb; ipdb.set_trace()
+    def __add__(self,other):
         return self.add(other)
+
     def __mul__(self, other):
         return self.mul(other)
 
-# 2. Complex class inherits from Number and describes arithmetic for complex numbers
-# notes: The complex class **defines this interface by determining how the attributes** (real, imag, magnitude, and angles) 
-# are used to add and mul complex numbers  
 
-# notes:  Using interfaces and message passing is only one of several methods used to implement generic functions.
-# in this example, the interface needed to implement arithmetic consists of four attributes: real, imag, magnitude, and angle.
-# 
-# A complex number can be as a point in 2-dim space 
-# two coordinates (real, imag) or (magnitude, angle) 
-# c = real + imag * i(i*i = -1) or
+def add_complex_and_rational(c, r):
+    return ComplexRI(c.real + r.numer/r.denom, c.imag)
+
+def mul_complex_and_rational(c, r):
+        r_magnitude, r_angle = r.numer/r.denom, 0
+        if r_magnitude < 0:
+            r_magnitude, r_angle = -r_magnitude, pi
+        return ComplexMA(c.magnitude * r_magnitude, c.angle + r_angle)
+
+def add_rational_and_complex(r, c):
+        return add_complex_and_rational(c, r)
+
+def mul_rational_and_complex(r, c):
+        return mul_complex_and_rational(c, r)
+
+# Type dispatching
+# use the type_tag attribute to distinguish types of arguments
+class NewNumber:
+    def __add__(self, other):
+        if self.type_tag == other.type_tag:
+            return self.add(other)
+
+        elif (self.type_tag, other.type_tag) in self.adders:
+            return self.cross_apply(other, self.adders)
+
+    def __mul__(self, other):
+        if self.type_tag == other.type_tag:
+                return self.mul(other)
+        elif (self.type_tag, other.type_tag) in self.multipliers:
+                return self.cross_apply(other, self.multipliers)
+
+    def cross_apply(self, other, cross_fns):
+        cross_fn = cross_fns[(self.type_tag, other.type_tag)]
+        return cross_fn(self, other)
+
+    # all cross-type implementations are indexed by pairs of type tags in the adders and multipliers dictionaries
+    adders = {
+        ("com", "rat"): add_complex_and_rational,
+        ("rat", "com"): add_rational_and_complex
+    }
+
+    multipliers = {
+        ("com", "rat"): mul_complex_and_rational,
+        ("rat", "com"): mul_rational_and_complex
+    }
+
+
+# note: An interface is a set of shared attribute names, along with a specification of their behavior
+# here the interface needed to implement arithmetic consists of four attributes: real, imag, magnitude, and angle 
 #
-# Also, we have to store attribute values for only one representation and compute the other representation 
-# whenever it is needed
-#
-# complexRI constructs a complex number from real and imaginary parts
-# complexMA constructs a complex number from a magnitude and angle
-class Complex(Number):
+# define add and mul appropriately for complex numbers
+class Complex(NewNumber):
+    type_tag = 'com'
     def add(self, other):
         return ComplexRI(self.real + other.real, self.imag + other.imag)
+    
     def mul(self, other):
-        magnitude = self.magnitude * other.magnitude
+        magnitude = self.magnitude + other.magnitude
         return ComplexMA(magnitude, self.angle + other.angle)
-   
-#
+
+
+# ComplexRI constructs a complex number from real and imaginary parts
 from math import atan2
-# The ComplexRI stores real and imag attributes and computes magnitude and angle on demand
 class ComplexRI(Complex):
     def __init__(self, real, imag):
         self.real = real
@@ -55,6 +100,7 @@ class ComplexRI(Complex):
         return 'ComplexRI ({0:g}, {1:g})'.format(self.real, self.imag)
 
 
+# ComplexMA constructs a complex number from a magnitude and angle
 from math import sin, cos, pi
 class ComplexMA(Complex):
     def __init__(self, magnitude, angle):
@@ -72,16 +118,12 @@ class ComplexMA(Complex):
             return 'ComplexMA({0:g}, {1:g} * pi)'.format(self.magnitude, self.angle/pi)
     
 
-
-def test_complexRI():
-    ri = ComplexRI(5,12)
-    return
-
-#3. Rational number like (2.1, 3)
-from fractions import gcd
+#Rational number like (2.1, 3)
+import math
 class Rational(Number):
+    type_tag = 'rat'
     def __init__(self, numer, denom):
-        g = gcd(numer, denom)
+        g = math.gcd(numer, denom)
         self.numer = numer // g
         self.denom = denom // g
     def __repr__(self):
@@ -96,16 +138,24 @@ class Rational(Number):
         denom = self.denom * other.denom
         return Rational(numer, denom)
 
-def test_Rational():
-    r = Rational(2, 5)
 
-    return
-
-# 4. using type_tag attribute in Number to distinguish types of arguments
-#TODO
+#Complex.type_tag = 'com'
+#Rational.type_tag = 'rat'
 
 
+def main():
+    from math import pi
+    # 1. Complex.add() is generic, 
+    # because it can take either a ComplexRI or ComplexMA as the value for other
+    # both ComplexRI and ComplexMA share an interface: attributes- real, imag, magnitude, and angle.
+    complex = Complex.add(ComplexRI(1,2), ComplexMA(2, pi/2))
+    print(complex)
+
+    #2. Type dispatching -  write functions that inspect the type of arguments they receive,
+    # then execute code that is appropriate for those types
+    print(ComplexRI(1.5, 0) + Rational(3, 2))
+
+    #3. Coercion -  try to coerce one type into another  
 
 if __name__ == "__main__":
-    #test_complexRI()
-    test_Rational()
+    main()

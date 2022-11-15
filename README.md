@@ -18,14 +18,18 @@
 
 #### dynamic program language  
 
-#### env
+#### tips  
+* ipdb debugger  
+    >  import ipdb; ipdb.set_trace()  
+    >  
+    >  python -m ipdb X.py
+
 * env  
     > python3 -m venv programenv  
     > source  programenv/bin/activate   
     > deactivate  
 
-#### vim
-* common commands 
+* common commands on vim  
     - :sp (:split) -> split vim the window horizontally  
     - :vsp (:vsplit) -> split vim window vertically  
     - Ctrl + wj -> move cursor to the window below (horizontal split)  

@@ -1,6 +1,7 @@
 #
 #a linked list is **a pair** containing the first, and the rest
 #note: link is a **constructor** and first and rest are **selectors** for an abstract data representation of linked list
+#
 def is_link(s):
     """ s is a linked list if it is empty or a (first, rest) pair.
     """
@@ -23,6 +24,12 @@ def rest(s):
     assert is_link(s), "rest only applies to linked list."
     assert s != "empty", "empty linked list has no rest"
     return s[1]
+
+
+# Linked List Class
+class Link:
+    pass
+
 
 
 if __name__ == "__main__":
