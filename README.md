@@ -16,8 +16,6 @@
     - **All objects can be treated as data**    
 
 
-#### dynamic program language  
-
 #### tips  
 * ipdb debugger  
     >  import ipdb; ipdb.set_trace()  
