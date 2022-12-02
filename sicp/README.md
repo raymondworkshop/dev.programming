@@ -4,9 +4,11 @@
 * some recent progress in computer programs  
 
 
-##### ch4 - Data Processing  
-* lazy computation - computing values **on demand** instead of being retrieved from an existing memory source  
-    -  TODO 
+#### ch3 - **language abstraction** - establishing new languages  
+* enhance our ability to deal with a complex problem by adopting a new language that enables us to **describe (and hence to think about) the problem in a different way**  
+
+* TODO 3.1  
+
 
 
 #### ch2 - Data Abstraction - Building Abstractions by combining data objects to form compound data    
@@ -92,8 +94,9 @@
 
 
 
-#### ch3 - **language abstraction** using interpreters and macros  
-
+##### ch4 - Data Processing  
+* lazy computation - computing values **on demand** instead of being retrieved from an existing memory source  
+    -  TODO 
 
 #### reference  
 * **[Composing Programs](https://composingprograms.com/)**  
